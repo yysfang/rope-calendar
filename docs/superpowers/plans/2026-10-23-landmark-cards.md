@@ -37,4 +37,4 @@
 - [x] `npm test`、`npm run typecheck`、`npm run build` 全部通过。
 - [x] 浏览器实际查看桌面/手机、国际/全国/省级、线上与取消记录、筛选/收藏/下载，检查 console。
 - [x] 同选定图一起比较，保存 `design-qa.md`，修复 P0/P1/P2 后通过。
-- [ ] 提交 main，核实 Pages 部署及正式站图片；保留简短维护说明。
+- [x] 提交 main，核实 Pages 部署及正式站图片；保留简短维护说明。

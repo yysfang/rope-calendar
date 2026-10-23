@@ -5,7 +5,7 @@ final result: passed
 ## 视觉依据与实现证据
 
 - 用户选定第二张效果图：`C:/Users/98432/.codex/generated_images/01a163e7-bc26-7110-874c-c9be16ceb650/exec-f67a89ae-cb2d-4574-829e-9c2a11d8bfa4.png`。
-- 实现桌面：`outputs/landmark-desktop.png`；手机：`outputs/landmark-mobile.png`。
+- 实现桌面：`outputs/landmark-desktop.png`；手机：`outputs/landmark-mobile.png`；正式站复核：`outputs/landmark-live-desktop.png`。
 - 同一输入中的完整比较：`outputs/landmark-qa-full.jpg`；等宽卡片细节比较：`outputs/landmark-qa-card.jpg`，已实际打开查看。
 - 桌面请求视口 1435×1096，参考图像素 1435×1096，工具截图 1420×1084；密度按 1 倍处理，卡片裁切统一到 1200 像素宽比较。不把工具约 1% 的画面尺寸差异作为设计问题。
 - 手机请求视口 390×844，含滚动条的实际内容宽 375 CSS 像素，无横向溢出。
