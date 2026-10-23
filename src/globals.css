@@ -23,3 +23,36 @@
 @media(max-width:580px){.event-section+.event-section{margin-top:30px}.event-section-heading{margin-bottom:14px}.event-section-heading h3{font-size:17px}.event-section-heading>span{font-size:10px}}
 
 .calendar-event.provincial{background:#f0f5f1;color:#637a68}.legend-dot.provincial{background:#91ac98}
+
+/* Match each event and document to the same name / place / date columns. */
+.catalog-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr) minmax(0,1fr) 116px;gap:26px;align-items:center}
+.catalog-columns{padding:14px 24px;font-size:12px;font-weight:500;color:#707682;border-bottom:1px solid var(--line);margin-bottom:20px}
+.column-action{text-align:right;padding-right:10px}
+.competition-row,.regulation-row{padding:23px 24px;border:1px solid #e6e8ee;border-radius:15px;background:#fff;margin-bottom:10px;transition:border-color .18s,box-shadow .18s}
+.competition-row:hover,.regulation-row:hover{border-color:#bfcee2;box-shadow:0 4px 18px #1d335a05}
+.row-main,.row-main>div,.row-location,.row-time{min-width:0}
+.row-main .tags{gap:10px;margin-bottom:9px;align-items:center;flex-wrap:wrap}
+.row-main .status{font-size:10px}
+.row-title{font-size:15px;line-height:1.65;font-weight:600;text-align:left;color:#262a31;overflow-wrap:anywhere}
+.row-title:hover{color:#316fac}
+.row-location strong,.row-time strong{font-size:14px;font-weight:550;line-height:1.75;display:block;color:#363e4c;overflow-wrap:anywhere}
+.row-location small,.row-time small{display:block;font-size:12px;color:#737b89;line-height:1.7;margin-top:4px;overflow-wrap:anywhere}
+.row-time strong{font-variant-numeric:tabular-nums}
+.row-time .tentative-date{color:#94713b}
+.row-fact-label{display:none}
+.row-actions{display:flex;align-items:center;justify-content:flex-end;gap:12px}
+.row-actions .bookmark-button{margin:0;padding:5px;display:flex}
+.row-download,.row-details{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:#557aa5;white-space:nowrap;min-height:36px}
+.row-download:hover,.row-details:hover{color:#135db2}
+.regulation-name{display:flex;gap:14px;align-items:center}
+.regulation-name .file-format{flex-shrink:0;width:40px;min-width:40px;height:50px}
+.row-subtitle{font-size:12px;color:#7a8190;line-height:1.7;margin-top:5px;overflow-wrap:anywhere}
+.regulation-row .button{font-size:12px;min-height:36px;padding:8px 14px;gap:6px}
+.documents-list>.catalog-columns{margin-bottom:0;border:0}
+.documents-list{border:0}
+.regulation-row{border-radius:0;margin:0;border-bottom:0}
+.regulation-row:nth-child(2){border-radius:14px 14px 0 0}
+.regulation-row:last-child{border-bottom:1px solid #e6e8ee;border-radius:0 0 14px 14px}
+.regulation-row:nth-child(2):last-child{border-radius:14px}
+@media(max-width:1100px){.catalog-grid{grid-template-columns:minmax(0,1.5fr) minmax(0,1fr) minmax(0,1fr) 94px;gap:18px}.competition-row,.regulation-row{padding:20px}.catalog-columns{padding-inline:20px}.row-actions{gap:6px}.row-title{font-size:14px}.row-location strong,.row-time strong{font-size:13px}.regulation-name{gap:10px}.regulation-name .file-format{width:32px;min-width:32px;height:43px}}
+@media(max-width:760px){.catalog-columns{display:none}.catalog-grid.competition-row,.catalog-grid.regulation-row{grid-template-columns:minmax(0,1fr) auto;gap:15px 12px;padding:20px 18px}.row-main{grid-column:1/-1}.row-title{font-size:15px;line-height:1.65}.row-location,.row-time{grid-column:1/-1;display:grid;grid-template-columns:47px minmax(0,1fr);gap:10px;align-items:start}.row-fact-label{display:flex;align-items:center;gap:5px;color:#7c8593;font-size:12px;line-height:1.85}.row-location strong,.row-time strong{font-size:14px;line-height:1.65}.row-location small,.row-time small{font-size:12px;margin-top:3px}.row-actions{grid-column:1/-1;border-top:1px solid #f0f1f5;padding-top:12px;margin-top:1px;gap:18px}.row-actions .bookmark-button{padding:7px}.row-download,.row-details{font-size:13px;min-height:30px}.regulation-name{align-items:flex-start;gap:12px}.regulation-name .file-format{width:35px;min-width:35px;height:45px}.row-subtitle{font-size:12px;margin-top:5px}.regulation-row .button{font-size:12px;min-height:34px}.row-main .tags{margin-bottom:7px}.row-main .tag,.row-main .status{font-size:10px}.documents-list{margin-top:8px}.event-section-heading{margin-top:4px}}

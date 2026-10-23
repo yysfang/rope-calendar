@@ -7,11 +7,11 @@
     "node": ">=24"
   },
   "scripts": {
-    "dev": "vite --host 127.0.0.1",
-    "build": "vite build",
+    "dev": "npm run prepare:catalog && vite --host 127.0.0.1",
+    "build": "npm run prepare:catalog && vite build",
     "typecheck": "tsc --noEmit",
     "test": "node --test src/lib/*.test.mjs scripts/*.test.mjs",
-    "sync": "node scripts/sync-catalog.mjs"
+    "prepare:catalog": "node scripts/prepare-catalog.mjs"
   },
   "dependencies": {
     "react": "19.2.6",

@@ -15,12 +15,13 @@ npm run dev
 
 ## 更新与发布
 
-GitHub Actions 每周一同步已核实的赛事及规程，并发布到 GitHub Pages。也可在 Actions 中手动运行发布流程。下载文件与网页一同托管，访客访问赛事、收藏和下载时无需连接原站。
+每周一 09:00（北京时间）由唯一的赛事核查任务直接维护本仓库，按 `maintenance.json` 核对官方公告与规程。原 ChatGPT Sites 站已停止维护，本仓库不再从原站同步。
 
-`sync.config.json` 指定公开目录的数据来源。数据同步失败或规程文件校验失败时，保留上一版已发布内容。赛期和参赛要求以主办方最新公告为准。
+`src/data/seed.json` 是赛事目录的唯一编辑源，规程保存在 `public/regulations/`。构建时从本地目录生成 `public/catalog.json`，已有附件不产生网络请求；新附件只从记录中的原始官方 URL 下载并校验。校验失败时不会发布不完整目录，线上保留上一次成功版本。
+
+有实际内容变化的提交触发 GitHub Pages 发布，也可手动运行 Actions。没有变化时只在 `maintenance-audits/` 记录实际核查范围，不重复构建网页。研究记录和维护规范不打包进网站。
 
 ```sh
-npm run sync
 npm test
 npm run typecheck
 npm run build

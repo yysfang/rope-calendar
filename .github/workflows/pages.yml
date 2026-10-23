@@ -3,10 +3,16 @@ name: Publish rope calendar
 on:
   push:
     branches: [main]
+    paths:
+      - 'src/**'
+      - 'public/**'
+      - 'scripts/**'
+      - 'package*.json'
+      - 'index.html'
+      - '*.config.mjs'
+      - 'tsconfig.json'
+      - '.github/workflows/pages.yml'
   workflow_dispatch:
-  schedule:
-    # Check Monday updates from 10:30 to 18:30 Asia/Shanghai.
-    - cron: '30 2-10 * * 1'
 
 permissions:
   contents: write
@@ -30,17 +36,15 @@ jobs:
           node-version: '24'
           cache: npm
       - run: npm ci --ignore-scripts --no-audit --no-fund
-      - name: Sync catalog and regulation files
-        run: npm run sync
       - run: npm test
       - run: npm run typecheck
       - run: npm run build
       - name: Save complete updated catalog
         run: |
-          if [ -n "$(git status --porcelain -- public src/data/seed.json)" ]; then
+          if [ -n "$(git status --porcelain -- public/regulations src/data/seed.json)" ]; then
             git config user.name 'github-actions[bot]'
             git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-            git add public src/data/seed.json
+            git add public/regulations src/data/seed.json
             git commit -m 'Update competition calendar and regulation files'
             git push
           fi
