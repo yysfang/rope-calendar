@@ -188,10 +188,12 @@
       "startDate": "2027-06-27",
       "endDate": "2027-07-04",
       "dateStatus": "confirmed",
+      "dateLabel": "2027年6月27日—7月4日（赛事周）",
+      "scheduleType": "event-period",
       "registrationDeadline": "2027-03-15",
       "registrationStartDate": "2026-12-15",
       "organizer": "国际跳绳联合会（IJRU）",
-      "summary": "同场安排世锦赛、青少年世锦赛、Norway Open及ISF赛事，已发布赛事手册与规则补充文件。",
+      "summary": "IJRU世界跳绳锦标赛与青少年世锦赛，设速度、花样等项目。",
       "eligibility": "通过国家或地区成员协会报名；具体名额和组别按官方文件。",
       "sourceName": "国际跳绳联合会（IJRU）",
       "sourceUrl": "https://ijru.sport/2027-world-championships",
@@ -219,7 +221,7 @@
         }
       ],
       "year": 2027,
-      "scheduleNote": "官方公布的比赛周为6月27日至7月4日，手册日程仍为草案；6月26日到达、7月5日离会。12月15日开放报名，须通过成员协会提交。"
+      "scheduleNote": "官网公布赛事周为6月27日—7月4日。世锦赛与青少年世锦赛暂定比赛安排为6月29日—7月4日；6月26日抵达、7月5日离会。具体比赛日程以最终通知为准。"
     },
     {
       "id": "china-international-open-2026",
@@ -2043,10 +2045,91 @@
       "year": 2026,
       "status": "normal",
       "scheduleNote": "具体比赛日及报名安排以总决赛补充通知为准。"
+    },
+    {
+      "id": "norway-open-2027",
+      "title": "2027年挪威跳绳公开赛（Norway Open）",
+      "level": "国际",
+      "system": "国际",
+      "province": "境外",
+      "city": "挪威·Melsomvik",
+      "venue": "Oslofjord Convention Center · Oslofjord Arena",
+      "startDate": "2027-06-27",
+      "endDate": "2027-06-28",
+      "dateStatus": "planned",
+      "dateLabel": "2027年6月27—28日（暂定）",
+      "registrationDeadline": "2027-03-15",
+      "registrationStartDate": "2026-12-15",
+      "organizer": "国际跳绳联合会（IJRU）",
+      "summary": "与世锦赛同地举办的一轮制公开赛，设个人及团体速度、花样项目。",
+      "eligibility": "设12—15岁、16—18岁、19岁及以上、30岁及以上组；须通过所属国家或地区成员协会报名，名额按官方文件分配。",
+      "sourceName": "国际跳绳联合会（IJRU）",
+      "sourceUrl": "https://ijru.sport/2027-world-championships",
+      "documents": [
+        {
+          "title": "2027年赛事手册（挪威公开赛）",
+          "url": "https://ijru.sport/s/WC27-Event-Brochure_Final.pdf",
+          "localPath": "/regulations/worlds-2027-brochure.pdf",
+          "format": "PDF",
+          "kind": "handbook",
+          "note": "赛事介绍见第17页，暂定日程见第18页，报名时间见第19页。"
+        },
+        {
+          "title": "挪威公开赛专项规则（2027年补充文件V2）",
+          "url": "https://ijru.sport/s/WC27-Rulebook-Addendum-V2_Final.pdf",
+          "localPath": "/regulations/worlds-2027-addendum.pdf",
+          "format": "PDF",
+          "kind": "regulation",
+          "note": "专项规则见第7页，名额及暂定日程见第8页。"
+        }
+      ],
+      "year": 2027,
+      "status": "normal",
+      "scheduleNote": "暂定6月27日团体速度及团体花样，28日个人速度、个人花样及团体花样；最终日程以主办方通知为准。"
+    },
+    {
+      "id": "isf-world-school-jump-rope-2027",
+      "title": "2027年ISF世界学校跳绳锦标赛",
+      "level": "国际",
+      "system": "国际",
+      "province": "境外",
+      "city": "挪威·Melsomvik",
+      "venue": "Oslofjord Convention Center · Festival Square（恶劣天气备用：Oslofjord Arena）",
+      "startDate": "2027-07-02",
+      "endDate": "2027-07-02",
+      "dateStatus": "planned",
+      "dateLabel": "2027年7月2日（暂定比赛日）",
+      "registrationDeadline": null,
+      "organizer": "ISF、国际跳绳联合会（IJRU）",
+      "summary": "首届ISF世界学校跳绳锦标赛，与IJRU世锦赛同期举办，包含比赛与工作坊。",
+      "eligibility": "面向11—18岁在校学生。具体报名办法、名额及完整专项规程待ISF正式通知。",
+      "sourceName": "国际跳绳联合会（IJRU）",
+      "sourceUrl": "https://ijru.sport/2027-world-championships",
+      "documents": [
+        {
+          "title": "2027年赛事手册（ISF比赛介绍及日程）",
+          "url": "https://ijru.sport/s/WC27-Event-Brochure_Final.pdf",
+          "localPath": "/regulations/worlds-2027-brochure.pdf",
+          "format": "PDF",
+          "kind": "handbook",
+          "note": "ISF介绍见第17页，暂定日程见第18页。"
+        },
+        {
+          "title": "ISF比赛说明（2027年补充文件V2）",
+          "url": "https://ijru.sport/s/WC27-Rulebook-Addendum-V2_Final.pdf",
+          "localPath": "/regulations/worlds-2027-addendum.pdf",
+          "format": "PDF",
+          "kind": "rules",
+          "note": "ISF年龄、项目、日期和场馆见第6页；本文件不是尚待发布的ISF独立专项规程。"
+        }
+      ],
+      "year": 2027,
+      "status": "normal",
+      "scheduleNote": "7月1日抵达，2日比赛与工作坊，3日观摩世锦赛决赛，4日离会；具体日程以最终通知为准。"
     }
   ],
-  "reviewedAt": "2026-10-23T04:11:56.911865Z",
-  "updateNote": "补入全国跳绳段位挑战赛总决赛：计划11月在山东东营举行，附总规程和官方赛历下载；具体赛期与场馆待补充通知。",
+  "reviewedAt": "2026-10-23T06:12:28.432089Z",
+  "updateNote": "新增2027年挪威公开赛与ISF世界学校跳绳锦标赛，附官方赛事手册及现行补充文件；暂定日程已标明。",
   "coverageNote": "本轮检索全国体育与教育体系、31省区市及国际主办方，逐条合并已核实赛事。部分省级来源访问受限、部分规程未公开；检索未发现不等于没有赛事。河北段位站原规程与报名平台日期冲突，保留待确认。京津冀邀请赛等已举办但缺具体赛日的线索留待补核。",
   "sources": [
     {
