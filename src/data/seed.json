@@ -925,21 +925,38 @@
       "level": "全国",
       "system": "体育",
       "province": "宁夏",
-      "city": "",
-      "venue": "待公布",
-      "startDate": null,
-      "endDate": null,
-      "dateStatus": "planned",
-      "dateLabel": "2026年 · 赛期待公布",
-      "registrationDeadline": null,
+      "city": "银川",
+      "venue": "宁夏体育职业学院",
+      "startDate": "2026-11-21",
+      "endDate": "2026-11-22",
+      "dateStatus": "confirmed",
+      "dateLabel": "2026年11月21—22日",
+      "scheduleType": "competition",
+      "registrationDeadline": "2026-11-13",
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
-      "summary": "协会第三批承办单位公示列宁夏青少儿体育联合会承办全国跳绳段位挑战赛。本站正式比赛日期、城市及规程待公布。",
-      "eligibility": "正式规程及参赛要求待公布。",
+      "summary": "11月21—22日在宁夏体育职业学院比赛，11月13日24:00报名截止。",
+      "eligibility": "设U6、U8、U10、U12、U15、青年、成年及特殊教育组；同一单位限报2支队伍，耐力四至九段和花样段位项目各限报1项。具体项目与参赛要求见规程及分组附件。",
       "sourceName": "中国毽球跳绳协会",
-      "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/0930/712215.html",
-      "documents": [],
+      "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/1023/712517.html",
+      "documents": [
+        {
+          "title": "宁夏站竞赛规程与通知（2026年10月22日）",
+          "url": "http://www.chinajiansheng.com.cn/xhjs/2026/1023/712517.html",
+          "localPath": "/regulations/national-duanwei-ningxia-2026-regulations.html",
+          "format": "HTML",
+          "kind": "regulation"
+        },
+        {
+          "title": "宁夏站项目设置及分组",
+          "url": "https://xhimg.sports.cn/Image/soft/261023/96-261023095S2392.docx",
+          "localPath": "/regulations/national-duanwei-ningxia-2026-events-and-groups.docx",
+          "format": "DOCX",
+          "kind": "rules"
+        }
+      ],
       "year": 2026,
-      "scheduleNote": "已公示承办单位；不将公示日期作为比赛或报名日期。"
+      "status": "normal",
+      "scheduleNote": "11月20日报到，11月21—22日比赛，11月23日离会。报名截止：11月13日24:00。"
     },
     {
       "id": "liaoning-games-mass-rope-2026",
@@ -1390,20 +1407,28 @@
       "system": "体育",
       "province": "河北",
       "city": "雄安新区",
-      "venue": "具体场馆待确认",
-      "startDate": null,
-      "endDate": null,
-      "dateStatus": "planned",
-      "dateLabel": "赛期有变动待确认",
-      "registrationDeadline": null,
+      "venue": "雄安容西容兴高级中学体育馆",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-23",
+      "dateStatus": "confirmed",
+      "dateLabel": "2026年11月20—23日（赛会时间）",
+      "scheduleType": "event-period",
+      "registrationDeadline": "2026-11-12",
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
-      "summary": "段位挑战与非段位项目。赛期信息存在差异，待组委会最新通知。",
+      "summary": "赛会延期至11月20—23日，场馆调整为雄安容西容兴高级中学体育馆。",
       "eligibility": "按竞赛规程的年龄、资格及组队要求参赛。",
-      "sourceName": "中国毽球跳绳协会 / 绳队友赛事平台",
-      "sourceUrl": "https://www.crsa.cc/#/pages/noteceDetail/index?id=673",
+      "sourceName": "中国毽球跳绳协会",
+      "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/1023/712512.html",
       "documents": [
         {
-          "title": "2026年全国跳绳段位挑战赛（河北站）竞赛规程（官方网页存档）",
+          "title": "河北站延期及场馆调整通知（2026年10月22日）",
+          "url": "http://www.chinajiansheng.com.cn/xhjs/2026/1023/712512.html",
+          "localPath": "/regulations/national-duanwei-hebei-2026-update-20261022.html",
+          "format": "HTML",
+          "kind": "regulation"
+        },
+        {
+          "title": "河北站原竞赛规程（赛期、场馆以最新通知为准）",
           "url": "https://www.crsa.cc/#/pages/noteceDetail/index?id=673",
           "localPath": "/regulations/national-duanwei-hebei-2026-regulations.html",
           "format": "HTML",
@@ -1412,7 +1437,8 @@
         }
       ],
       "year": 2026,
-      "scheduleNote": "原规程列10月24—25日比赛，报名平台现列11月21—23日，尚未取得改期通知。请向组委会确认最新赛期及地点后安排行程。"
+      "status": "normal",
+      "scheduleNote": "11月20—23日为调整后的赛会时间，具体比赛日及报到安排以组委会后续通知为准；原规程中的赛期和场馆已调整。"
     },
     {
       "id": "national-duanwei-jiangsu-2026",
@@ -2128,9 +2154,9 @@
       "scheduleNote": "7月1日抵达，2日比赛与工作坊，3日观摩世锦赛决赛，4日离会；具体日程以最终通知为准。"
     }
   ],
-  "reviewedAt": "2026-10-23T06:12:28.432089Z",
-  "updateNote": "新增2027年挪威公开赛与ISF世界学校跳绳锦标赛，附官方赛事手册及现行补充文件；暂定日程已标明。",
-  "coverageNote": "本轮检索全国体育与教育体系、31省区市及国际主办方，逐条合并已核实赛事。部分省级来源访问受限、部分规程未公开；检索未发现不等于没有赛事。河北段位站原规程与报名平台日期冲突，保留待确认。京津冀邀请赛等已举办但缺具体赛日的线索留待补核。",
+  "reviewedAt": "2026-10-23T12:48:15Z",
+  "updateNote": "更新河北站延期与场馆调整通知，补齐宁夏站赛期、场馆、报名截止及规程附件。",
+  "coverageNote": "本次补核河北、宁夏段位赛最新通知。既往逐省核查中部分官方来源访问受限、部分规程未公开，京津冀邀请赛等线索仍待补核；检索未发现不等于没有赛事。",
   "sources": [
     {
       "name": "中国毽球跳绳协会",

@@ -1,0 +1,39 @@
+{
+  "checkedAt": "2026-10-23T12:48:15Z",
+  "scope": "仅河北、宁夏全国段位挑战赛两站最新通知与附件核查，不代表全面赛事复查。",
+  "changedEvents": [
+    "national-duanwei-ningxia-2026",
+    "national-duanwei-hebei-2026"
+  ],
+  "officialNotices": {
+    "hebei": {
+      "url": "http://www.chinajiansheng.com.cn/xhjs/2026/1023/712512.html",
+      "title": "2026年全国跳绳段位挑战赛（河北站）延期及场馆调整通知",
+      "file": "national-duanwei-hebei-2026-update-20261022.html"
+    },
+    "ningxia": {
+      "url": "http://www.chinajiansheng.com.cn/xhjs/2026/1023/712517.html",
+      "title": "2026年全国跳绳段位挑战赛（宁夏站）竞赛规程与通知",
+      "file": "national-duanwei-ningxia-2026-regulations.html"
+    }
+  },
+  "hebeiRegistrationPlatform": {
+    "sourceUrl": "https://loopdata.loopsports.cn/china_rope_match/detail?id=30344",
+    "deadline": "2026-11-12",
+    "note": "平台赛期为11月21—23日，正式延期通知为11月20—23日；采用最新通知的赛会窗口，不推断比赛日。"
+  },
+  "ningxia": {
+    "arrival": "2026-11-20",
+    "competition": [
+      "2026-11-21",
+      "2026-11-22"
+    ],
+    "departure": "2026-11-23",
+    "registrationDeadline": "2026-11-14T00:00:00+08:00",
+    "registrationDeadlineLabel": "2026年11月13日24:00"
+  },
+  "unchangedEvents": 71,
+  "unavailableSources": [
+    "网页检索工具将协会HTTP地址升级为HTTPS后无法读取；使用协会实际公开HTTP页面成功核对。"
+  ]
+}
