@@ -1,0 +1,32 @@
+{
+  "name": "rope-calendar",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test src/lib/*.test.mjs scripts/*.test.mjs",
+    "sync": "node scripts/sync-catalog.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "lucide-react": "1.31.0",
+    "zod": "3.25.76"
+  },
+  "devDependencies": {
+    "vite": "8.0.13",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "5.9.3",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "tailwindcss": "4.2.1",
+    "@tailwindcss/postcss": "4.2.1"
+  }
+}
