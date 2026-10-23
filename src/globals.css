@@ -24,7 +24,7 @@
 
 .calendar-event.provincial{background:#f0f5f1;color:#637a68}.legend-dot.provincial{background:#91ac98}
 
-/* Match each event and document to the same name / place / date columns. */
+/* Match each event and document to the same name / date / place columns. */
 .catalog-grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr) minmax(0,1fr) 116px;gap:26px;align-items:center}
 .catalog-columns{padding:14px 24px;font-size:12px;font-weight:500;color:#707682;border-bottom:1px solid var(--line);margin-bottom:20px}
 .column-action{text-align:right;padding-right:10px}
