@@ -37,3 +37,10 @@ test('published photo credits contain readable labels and public license links',
   assert.doesNotMatch(photo.author, /\.(?:jpe?g|png|webp)|[a-f0-9]{32}/i);
  }
 });
+
+test('a distinctive venue image applies only to events at that venue', () => {
+ const atVenue=module.eventCover({province:'江苏',city:'江阴',venue:'江阴飞马水城文体馆'});
+ assert.match(atVenue.title,/飞马水城/);
+ assert.equal(module.eventCover({province:'江苏',city:'江阴',venue:'江阴市体育中心'}).key,'jiangyin');
+ assert.equal(module.eventCover({province:'江苏',city:'江阴'}).key,'jiangyin');
+});

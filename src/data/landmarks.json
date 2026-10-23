@@ -67,50 +67,53 @@
   {
     "key": "bangkok",
     "place": "泰国·曼谷",
-    "title": "曼谷 · 城市天际线",
+    "title": "曼谷 · 郑王庙氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "境外|泰国·曼谷"
     ],
-    "src": "./landmarks/bangkok.webp",
-    "mobileSrc": "./landmarks/bangkok-mobile.webp",
-    "author": "Entropy1963",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:WV_banner_Bangkok_skyline.jpg",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "position": "center"
+    "src": "./landmarks/bangkok-v2.webp",
+    "mobileSrc": "./landmarks/bangkok-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/bangkok-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "incheon",
     "place": "韩国·仁川",
-    "title": "仁川 · 文鹤体育场",
+    "title": "仁川 · 松岛中央公园氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "境外|韩国·仁川"
     ],
-    "src": "./landmarks/incheon.webp",
-    "mobileSrc": "./landmarks/incheon-mobile.webp",
-    "author": "Ypsilon from Finland",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Incheon_banner.jpg",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "position": "center"
+    "src": "./landmarks/incheon-v2.webp",
+    "mobileSrc": "./landmarks/incheon-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/incheon-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "melsomvik",
     "place": "挪威·Melsomvik",
-    "title": "挪威·Melsomvik · 举办地风光",
+    "title": "挪威 · Melsomvik海湾氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "境外|挪威·Melsomvik"
     ],
-    "src": "./landmarks/melsomvik.webp",
-    "mobileSrc": "./landmarks/melsomvik-mobile.webp",
-    "author": "nakhon100",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melsomvik,Norway_(2442618791).jpg",
-    "license": "CC BY 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-    "position": "center"
+    "src": "./landmarks/melsomvik-v2.webp",
+    "mobileSrc": "./landmarks/melsomvik-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/melsomvik-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "sanming",
@@ -318,6 +321,26 @@
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiangyin_Yangtze_River_bridge-2.jpeg",
     "license": "Public domain",
     "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "position": "center"
+  },
+  {
+    "key": "jiangyin-feima",
+    "place": "江阴",
+    "title": "江阴 · 飞马水城氛围图（AI生成）",
+    "kind": "city",
+    "matches": [
+      "江苏|江阴"
+    ],
+    "venues": [
+      "飞马水城"
+    ],
+    "src": "./landmarks/jiangyin-venue-v2.webp",
+    "mobileSrc": "./landmarks/jiangyin-venue-v2-mobile.webp",
+    "generated": true,
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/jiangyin-venue-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "position": "center"
   },
   {
