@@ -1,0 +1,834 @@
+[
+  {
+    "key": "shanghai",
+    "place": "上海",
+    "title": "上海 · 浦东天际线",
+    "kind": "city",
+    "matches": [
+      "上海|上海"
+    ],
+    "src": "./landmarks/shanghai.webp",
+    "mobileSrc": "./landmarks/shanghai-mobile.webp",
+    "author": "andygee1；衍生图：ויקיג'אנקי",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shanghai_Wikivoyage_banner.jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "position": "center"
+  },
+  {
+    "key": "anlong",
+    "place": "安龙",
+    "title": "安龙 · 招堤氛围图（AI生成）",
+    "kind": "city",
+    "matches": [
+      "贵州|黔西南州安龙县"
+    ],
+    "src": "./landmarks/anlong.webp",
+    "mobileSrc": "./landmarks/anlong-mobile.webp",
+    "generated": true,
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/anlong.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center"
+  },
+  {
+    "key": "harbin",
+    "place": "哈尔滨",
+    "title": "哈尔滨 · 冰雪风光",
+    "kind": "city",
+    "matches": [
+      "黑龙江|哈尔滨"
+    ],
+    "src": "./landmarks/harbin.webp",
+    "mobileSrc": "./landmarks/harbin-mobile.webp",
+    "author": "闫恩铭 / Enming Yan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:PANO_20180117_202751_(cropped).jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "huaibei",
+    "place": "淮北",
+    "title": "淮北 · 城市天际线",
+    "kind": "city",
+    "matches": [
+      "安徽|淮北"
+    ],
+    "src": "./landmarks/huaibei.webp",
+    "mobileSrc": "./landmarks/huaibei-mobile.webp",
+    "author": "Nickm57",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huaibei_easterly_view_(cropped).jpg",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "position": "center"
+  },
+  {
+    "key": "bangkok",
+    "place": "泰国·曼谷",
+    "title": "曼谷 · 城市天际线",
+    "kind": "city",
+    "matches": [
+      "境外|泰国·曼谷"
+    ],
+    "src": "./landmarks/bangkok.webp",
+    "mobileSrc": "./landmarks/bangkok-mobile.webp",
+    "author": "Entropy1963",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:WV_banner_Bangkok_skyline.jpg",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "position": "center"
+  },
+  {
+    "key": "incheon",
+    "place": "韩国·仁川",
+    "title": "仁川 · 文鹤体育场",
+    "kind": "city",
+    "matches": [
+      "境外|韩国·仁川"
+    ],
+    "src": "./landmarks/incheon.webp",
+    "mobileSrc": "./landmarks/incheon-mobile.webp",
+    "author": "Ypsilon from Finland",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Incheon_banner.jpg",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "position": "center"
+  },
+  {
+    "key": "melsomvik",
+    "place": "挪威·Melsomvik",
+    "title": "挪威·Melsomvik · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "境外|挪威·Melsomvik"
+    ],
+    "src": "./landmarks/melsomvik.webp",
+    "mobileSrc": "./landmarks/melsomvik-mobile.webp",
+    "author": "nakhon100",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Melsomvik,Norway_(2442618791).jpg",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "position": "center"
+  },
+  {
+    "key": "sanming",
+    "place": "三明",
+    "title": "三明 · 城市全景",
+    "kind": "city",
+    "matches": [
+      "福建|三明"
+    ],
+    "src": "./landmarks/sanming.webp",
+    "mobileSrc": "./landmarks/sanming-mobile.webp",
+    "author": "Randall Ferry",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanming_City_View_2025-07-19_banner.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "zhenxiong",
+    "place": "昭通市镇雄县",
+    "title": "昭通市镇雄县 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "云南|昭通市镇雄县"
+    ],
+    "src": "./landmarks/zhenxiong.webp",
+    "mobileSrc": "./landmarks/zhenxiong-mobile.webp",
+    "author": "DiverDave",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhenxiong-People%27s_Park.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "hong-kong",
+    "place": "香港",
+    "title": "香港 · 维多利亚港",
+    "kind": "city",
+    "matches": [
+      "香港|香港"
+    ],
+    "src": "./landmarks/hong-kong.webp",
+    "mobileSrc": "./landmarks/hong-kong-mobile.webp",
+    "author": "Base64 and Derivative work by Globe-trotter",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hong_Kong_banner.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "anyuan",
+    "place": "赣州市安远县",
+    "title": "赣州市安远县 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "江西|赣州市安远县"
+    ],
+    "src": "./landmarks/anyuan.webp",
+    "mobileSrc": "./landmarks/anyuan-mobile.webp",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anyuan_Dongshengwei_2018.10.07_10-02-22.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "beijing",
+    "place": "北京",
+    "title": "北京 · 天安门",
+    "kind": "city",
+    "matches": [
+      "北京|北京"
+    ],
+    "src": "./landmarks/beijing.webp",
+    "mobileSrc": "./landmarks/beijing-mobile.webp",
+    "author": "张瑜",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Beijing_banner_Tiananmen.jpg",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "position": "center"
+  },
+  {
+    "key": "liangping",
+    "place": "重庆市梁平区",
+    "title": "重庆市梁平区 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "重庆|重庆市梁平区"
+    ],
+    "src": "./landmarks/liangping.webp",
+    "mobileSrc": "./landmarks/liangping-mobile.webp",
+    "author": "chp13579753",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A2%81%E5%B9%B3%E5%8F%8C%E6%A1%82%E5%A0%82_-_panoramio.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "sanya",
+    "place": "三亚",
+    "title": "三亚 · 三亚湾与凤凰岛",
+    "kind": "city",
+    "matches": [
+      "海南|三亚"
+    ],
+    "src": "./landmarks/sanya.webp",
+    "mobileSrc": "./landmarks/sanya-mobile.webp",
+    "author": "Edit888",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanya_Bay_looking_towards_Phoenix_Island_2013.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "putian",
+    "place": "莆田",
+    "title": "莆田 · 南少林寺",
+    "kind": "city",
+    "matches": [
+      "福建|莆田"
+    ],
+    "src": "./landmarks/putian.webp",
+    "mobileSrc": "./landmarks/putian-mobile.webp",
+    "author": "A. Hoffmann",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Putian_Banner.jpg",
+    "license": "CC BY-SA 3.0 de",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+    "position": "center"
+  },
+  {
+    "key": "wuhu",
+    "place": "芜湖",
+    "title": "芜湖 · 城市天际线",
+    "kind": "city",
+    "matches": [
+      "安徽|芜湖"
+    ],
+    "src": "./landmarks/wuhu.webp",
+    "mobileSrc": "./landmarks/wuhu-mobile.webp",
+    "author": "Wu Shan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wuhu_banner.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "chenggu",
+    "place": "汉中市城固县",
+    "title": "城固 · 张骞墓",
+    "kind": "city",
+    "matches": [
+      "陕西|汉中市城固县"
+    ],
+    "src": "./landmarks/chenggu.webp",
+    "mobileSrc": "./landmarks/chenggu-mobile.webp",
+    "author": "hanming_huang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%BC%B5%E9%A8%AB%E5%A2%93_Zhang_Qian_Tomb.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "position": "center"
+  },
+  {
+    "key": "dexing",
+    "place": "上饶市德兴市",
+    "title": "德兴 · 银山银矿遗址",
+    "kind": "city",
+    "matches": [
+      "江西|上饶市德兴市"
+    ],
+    "src": "./landmarks/dexing.webp",
+    "mobileSrc": "./landmarks/dexing-mobile.webp",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dexing_Yinshan_Yinkuang_Yizhi_2018.07.04_16-52-15.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "jiaozhou",
+    "place": "青岛胶州市",
+    "title": "胶州 · 历史建筑",
+    "kind": "city",
+    "matches": [
+      "山东|青岛胶州市"
+    ],
+    "src": "./landmarks/jiaozhou.webp",
+    "mobileSrc": "./landmarks/jiaozhou-mobile.webp",
+    "author": "K.Y.K.Z.K.",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiaozhou_Protestant_Church.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "jiangyin",
+    "place": "江阴",
+    "title": "江阴 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "江苏|江阴"
+    ],
+    "src": "./landmarks/jiangyin.webp",
+    "mobileSrc": "./landmarks/jiangyin-mobile.webp",
+    "author": "Yawn823 at English Wikipedia",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiangyin_Yangtze_River_bridge-2.jpeg",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "position": "center"
+  },
+  {
+    "key": "yuexi",
+    "place": "安庆市岳西县",
+    "title": "安庆市岳西县 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "安徽|安庆市岳西县"
+    ],
+    "src": "./landmarks/yuexi.webp",
+    "mobileSrc": "./landmarks/yuexi-mobile.webp",
+    "author": "User:Howew",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Yuexi_County.tif",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "lushan",
+    "place": "九江市庐山市",
+    "title": "庐山 · 山间建筑",
+    "kind": "city",
+    "matches": [
+      "江西|九江市庐山市"
+    ],
+    "src": "./landmarks/lushan.webp",
+    "mobileSrc": "./landmarks/lushan-mobile.webp",
+    "author": "KongFu Wang from Beijing, China",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lu_Shan-Jiangxi2_by_KongFu_Wang.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "position": "center"
+  },
+  {
+    "key": "lanxi",
+    "place": "金华市兰溪市",
+    "title": "金华市兰溪市 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "浙江|金华市兰溪市"
+    ],
+    "src": "./landmarks/lanxi.webp",
+    "mobileSrc": "./landmarks/lanxi-mobile.webp",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lanxi_Zhugecun_2011.04.24_08-55-43.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "fenyi",
+    "place": "新余市分宜县",
+    "title": "分宜 · 万年桥（历史影像）",
+    "kind": "city",
+    "matches": [
+      "江西|新余市分宜县"
+    ],
+    "src": "./landmarks/fenyi.webp",
+    "mobileSrc": "./landmarks/fenyi-mobile.webp",
+    "author": "陈柏泉",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wannian_Bridge_of_Fenyi_in_1961.jpg",
+    "license": "Public domain",
+    "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+    "position": "center"
+  },
+  {
+    "key": "liuzhou",
+    "place": "柳州",
+    "title": "柳州 · 城市全景",
+    "kind": "city",
+    "matches": [
+      "广西|柳州"
+    ],
+    "src": "./landmarks/liuzhou.webp",
+    "mobileSrc": "./landmarks/liuzhou-mobile.webp",
+    "author": "涔水影人",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liuzhou_Wikivoyage_banner.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "position": "center"
+  },
+  {
+    "key": "longgang",
+    "place": "温州市龙港市",
+    "title": "温州市龙港市 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "浙江|温州市龙港市"
+    ],
+    "src": "./landmarks/longgang.webp",
+    "mobileSrc": "./landmarks/longgang-mobile.webp",
+    "author": "Y Chen",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:An_overall_view_of_the_Town_of_Longgang,_Zhejiang_Province,_P.R._China.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "luocheng",
+    "place": "河池市罗城仫佬族自治县",
+    "title": "河池市罗城仫佬族自治县 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "广西|河池市罗城仫佬族自治县"
+    ],
+    "src": "./landmarks/luocheng.webp",
+    "mobileSrc": "./landmarks/luocheng-mobile.webp",
+    "author": "-yurismartass",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:LUO_CHENG_RAILWAY_STATION_PLATFORM_AND_TRAIN_K653.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "position": "center"
+  },
+  {
+    "key": "guangzhou",
+    "place": "广州",
+    "title": "广州 · 珠江新城",
+    "kind": "city",
+    "matches": [
+      "广东|广州市花都区"
+    ],
+    "src": "./landmarks/guangzhou.webp",
+    "mobileSrc": "./landmarks/guangzhou-mobile.webp",
+    "author": "chensiyuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guangzhou_dusk_panorama.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "yinchuan",
+    "place": "银川",
+    "title": "银川 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "宁夏|银川"
+    ],
+    "src": "./landmarks/yinchuan.webp",
+    "mobileSrc": "./landmarks/yinchuan-mobile.webp",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260810_Yinchuan_Bell_and_Drum_Tower.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "jinzhou",
+    "place": "锦州",
+    "title": "锦州 · 广济寺古建筑群",
+    "kind": "city",
+    "matches": [
+      "辽宁|锦州"
+    ],
+    "src": "./landmarks/jinzhou.webp",
+    "mobileSrc": "./landmarks/jinzhou-mobile.webp",
+    "author": "红烧腰果",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B9%BF%E6%B5%8E%E5%AF%BA%E5%8F%A4%E5%BB%BA%E7%AD%91%E7%BE%A4_01.jpg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "position": "center"
+  },
+  {
+    "key": "nanjing",
+    "place": "南京",
+    "title": "南京 · 城市风光",
+    "kind": "city",
+    "matches": [
+      "江苏|南京"
+    ],
+    "src": "./landmarks/nanjing.webp",
+    "mobileSrc": "./landmarks/nanjing-mobile.webp",
+    "author": "GP02YG；衍生图：ויקיג'אנקי",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanjing_banner.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "zhengzhou",
+    "place": "郑州",
+    "title": "郑州 · 郑东新区",
+    "kind": "city",
+    "matches": [
+      "河南|郑州"
+    ],
+    "src": "./landmarks/zhengzhou.webp",
+    "mobileSrc": "./landmarks/zhengzhou-mobile.webp",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20240801_Skyline_of_Zhengdong_New_Area_01.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "xinxiang",
+    "place": "新乡",
+    "title": "新乡 · 跑马岭风景区",
+    "kind": "city",
+    "matches": [
+      "河南|新乡"
+    ],
+    "src": "./landmarks/xinxiang.webp",
+    "mobileSrc": "./landmarks/xinxiang-mobile.webp",
+    "author": "山海风",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Xinxiang_Banner.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "beibei",
+    "place": "重庆市北碚区",
+    "title": "重庆市北碚区 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "重庆|重庆市北碚区"
+    ],
+    "src": "./landmarks/beibei.webp",
+    "mobileSrc": "./landmarks/beibei-mobile.webp",
+    "author": "Glabb",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chaoyang_Jialing_River_Bridge.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "chengdu",
+    "place": "成都",
+    "title": "成都 · 安顺廊桥",
+    "kind": "city",
+    "matches": [
+      "四川|成都"
+    ],
+    "src": "./landmarks/chengdu.webp",
+    "mobileSrc": "./landmarks/chengdu-mobile.webp",
+    "author": "Charlie fong 冯成",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chengdu_banner_Anshunlang_bridge.jpg",
+    "license": "CC0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "position": "center"
+  },
+  {
+    "key": "zhangye",
+    "place": "张掖",
+    "title": "张掖 · 七彩丹霞",
+    "kind": "city",
+    "matches": [
+      "甘肃|张掖"
+    ],
+    "src": "./landmarks/zhangye.webp",
+    "mobileSrc": "./landmarks/zhangye-mobile.webp",
+    "author": "Dcpeets",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zhangye_Qicai_Danxia_banner.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "nanning",
+    "place": "南宁",
+    "title": "南宁 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "广西|南宁"
+    ],
+    "src": "./landmarks/nanning.webp",
+    "mobileSrc": "./landmarks/nanning-mobile.webp",
+    "author": "MspreilsCN",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nanning_skyline_banner.png",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "position": "center"
+  },
+  {
+    "key": "baoding",
+    "place": "保定",
+    "title": "保定 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "河北|保定"
+    ],
+    "src": "./landmarks/baoding.webp",
+    "mobileSrc": "./landmarks/baoding-mobile.webp",
+    "author": "Vardion",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:ZhiLiGovernorMansion.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+    "position": "center"
+  },
+  {
+    "key": "changsha",
+    "place": "长沙",
+    "title": "长沙 · 天心阁",
+    "kind": "city",
+    "matches": [
+      "湖南|长沙"
+    ],
+    "src": "./landmarks/changsha.webp",
+    "mobileSrc": "./landmarks/changsha-mobile.webp",
+    "author": "归零者",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Changsha_banner_02.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "xiongan",
+    "place": "雄安新区",
+    "title": "雄安新区 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "河北|雄安新区"
+    ],
+    "src": "./landmarks/xiongan.webp",
+    "mobileSrc": "./landmarks/xiongan-mobile.webp",
+    "author": "N509FZ",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_facade_of_Xiongan_Railway_Station_(20201227143758).jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "pingshun",
+    "place": "长治市平顺县",
+    "title": "长治市平顺县 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "山西|长治市平顺县"
+    ],
+    "src": "./landmarks/pingshun.webp",
+    "mobileSrc": "./landmarks/pingshun-mobile.webp",
+    "author": "Windmemories",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260405_Tiantai_Temple_04.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "taiyuan",
+    "place": "太原",
+    "title": "太原 · 傅山碑林公园",
+    "kind": "city",
+    "matches": [
+      "山西|太原"
+    ],
+    "src": "./landmarks/taiyuan.webp",
+    "mobileSrc": "./landmarks/taiyuan-mobile.webp",
+    "author": "lienyuan lee",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Taiyuan_Banner.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "position": "center"
+  },
+  {
+    "key": "shenyang",
+    "place": "沈阳",
+    "title": "沈阳 · 昭陵",
+    "kind": "city",
+    "matches": [
+      "辽宁|沈阳"
+    ],
+    "src": "./landmarks/shenyang.webp",
+    "mobileSrc": "./landmarks/shenyang-mobile.webp",
+    "author": "Farm",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shenyang_banner.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "jinjiang",
+    "place": "泉州市晋江市",
+    "title": "晋江 · 安平桥",
+    "kind": "city",
+    "matches": [
+      "福建|泉州市晋江市"
+    ],
+    "src": "./landmarks/jinjiang.webp",
+    "mobileSrc": "./landmarks/jinjiang-mobile.webp",
+    "author": "User:Vmenkov",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anping_Bridge_-_western_section_-_DSCF8971-cropped.JPG",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "qingtongxia",
+    "place": "青铜峡",
+    "title": "青铜峡 · 一百零八塔",
+    "kind": "city",
+    "matches": [
+      "宁夏|青铜峡"
+    ],
+    "src": "./landmarks/qingtongxia.webp",
+    "mobileSrc": "./landmarks/qingtongxia-mobile.webp",
+    "author": "BabelStone",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:108_stupas_all_3.jpg",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "position": "center"
+  },
+  {
+    "key": "singapore",
+    "place": "新加坡",
+    "title": "新加坡 · 滨海湾天际线",
+    "kind": "city",
+    "matches": [
+      "境外|新加坡"
+    ],
+    "src": "./landmarks/singapore.webp",
+    "mobileSrc": "./landmarks/singapore-mobile.webp",
+    "author": "chenisyuan",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:1_singapore_city_skyline_dusk_panorama_2011_(cropped_for_Wikivoyage).jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "shangyu",
+    "place": "绍兴市上虞区",
+    "title": "绍兴市上虞区 · 举办地风光",
+    "kind": "city",
+    "matches": [
+      "浙江|绍兴市上虞区"
+    ],
+    "src": "./landmarks/shangyu.webp",
+    "mobileSrc": "./landmarks/shangyu-mobile.webp",
+    "author": "猫猫的日记本",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caoe_Temple_07_2014-08.JPG",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "jingdezhen",
+    "place": "景德镇",
+    "title": "景德镇 · 宇宙瓷厂",
+    "kind": "city",
+    "matches": [
+      "江西|景德镇"
+    ],
+    "src": "./landmarks/jingdezhen.webp",
+    "mobileSrc": "./landmarks/jingdezhen-mobile.webp",
+    "author": "Zhangzhugang",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jingdezhen_Yuzhou_Cichang_2017.12.30_13-31-44.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "mengyin",
+    "place": "临沂市蒙阴县",
+    "title": "蒙阴 · 山间建筑",
+    "kind": "city",
+    "matches": [
+      "山东|临沂市蒙阴县"
+    ],
+    "src": "./landmarks/mengyin.webp",
+    "mobileSrc": "./landmarks/mengyin-mobile.webp",
+    "author": "嘉兴6",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%92%99%E9%98%B4%E8%88%AC%E8%8B%A5%E9%87%91%E5%88%9A%E9%97%A8.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "liaoyuan",
+    "place": "辽源",
+    "title": "辽源 · 魁星楼",
+    "kind": "city",
+    "matches": [
+      "吉林|辽源"
+    ],
+    "src": "./landmarks/liaoyuan.webp",
+    "mobileSrc": "./landmarks/liaoyuan-mobile.webp",
+    "author": "Air7538",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%BE%BD%E6%BA%90%E5%B8%82%E9%AD%81%E6%98%9F%E6%A5%BC.jpg",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "position": "center"
+  },
+  {
+    "key": "dongying",
+    "place": "东营",
+    "title": "东营 · 清风湖公园",
+    "kind": "city",
+    "matches": [
+      "山东|东营"
+    ],
+    "src": "./landmarks/dongying.webp",
+    "mobileSrc": "./landmarks/dongying-mobile.webp",
+    "author": "rheins",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dongying_Wikivoyage_banner.jpg",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "position": "center"
+  },
+  {
+    "key": "rope",
+    "place": "线上 / 地点待公布",
+    "title": "跳绳主题图（AI生成）",
+    "kind": "sport",
+    "matches": [],
+    "src": "./landmarks/rope.webp",
+    "mobileSrc": "./landmarks/rope-mobile.webp",
+    "generated": true,
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/rope.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center"
+  }
+]

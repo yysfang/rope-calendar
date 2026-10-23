@@ -5,6 +5,8 @@ import { type Catalog, type RopeEvent, type Filters, filterEvents, groupEventsFo
 import RopeArt from '@/components/rope-art';
 import EventDialog from '@/components/event-dialog';
 import MonthCalendar from '@/components/month-calendar';
+import EventCover from '@/components/event-cover';
+import PhotoCredits from '@/components/photo-credits';
 
 type View='events'|'documents'|'saved';
 function RopeLogo(){return <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M7 21V11C7 5 25 5 25 11V21" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round"/><rect x="4.5" y="17" width="5" height="11" rx="2.5" fill="currentColor"/><rect x="22.5" y="17" width="5" height="11" rx="2.5" fill="currentColor"/></svg>;}
@@ -17,6 +19,7 @@ export default function CalendarApp({initialCatalog}:{initialCatalog:Catalog}) {
  const [selected,setSelected]=useState<RopeEvent|null>(null);const [toast,setToast]=useState('');
  const [warning,setWarning]=useState('');const [loading,setLoading]=useState(true);const [today,setToday]=useState(todayShanghai());
  const [month,setMonth]=useState(today.slice(0,7));
+ const [creditsOpen,setCreditsOpen]=useState(false);
  const refresh=async()=>{setLoading(true);try{const response=await fetch('./catalog.json',{cache:'no-store'});if(!response.ok)throw new Error();const data=await response.json() as {catalog:unknown;warning?:string};const checked=validateCatalog(data.catalog);if(!checked.success)throw new Error();setCatalog(checked.data);setWarning(data.warning||'');}catch{setWarning('暂时无法刷新，正在显示已有赛事。');}finally{setLoading(false);}};
  useEffect(()=>{void refresh();try{const value=JSON.parse(localStorage.getItem('rope-calendar-favorites')||'[]');if(Array.isArray(value))setSaved(value.filter((id:unknown)=>typeof id==='string'));}catch{}setFavoritesReady(true);const timer=setInterval(()=>setToday(todayShanghai()),60_000);return()=>clearInterval(timer);},[]);
  useEffect(()=>{if(favoritesReady){try{localStorage.setItem('rope-calendar-favorites',JSON.stringify(saved));}catch{setToast('浏览器暂不允许保存收藏，本次仍可使用。');}}},[saved,favoritesReady]);
@@ -52,8 +55,9 @@ export default function CalendarApp({initialCatalog}:{initialCatalog:Catalog}) {
   </section>
 
  </main>
- <footer className="page-width"><span className="footer-brand">绳历</span><p>更新于 {reviewed}<span aria-hidden="true"> · </span>赛事以官方公告为准</p><span>© {currentYear} 绳历</span></footer>
+ <footer className="page-width"><span className="footer-brand">绳历</span><p>更新于 {reviewed}<span aria-hidden="true"> · </span>赛事以官方公告为准<span aria-hidden="true"> · </span><button onClick={()=>setCreditsOpen(true)}>图片来源</button></p><span>© {currentYear} 绳历</span></footer>
  {selected&&<EventDialog key={selected.id} event={selected} saved={saved.includes(selected.id)} onClose={()=>setSelected(null)} onSave={()=>toggleSave(selected)} onExport={()=>exportCalendar([selected])}/>}
+ {creditsOpen&&<PhotoCredits onClose={()=>setCreditsOpen(false)}/>}
  {toast&&<div className="toast" role="status"><Check size={16}/>{toast}</div>}
  <span className="sr-only" role="status">{loading?'正在核对最新赛事目录':'赛事目录已载入'}</span>
  </>;
@@ -63,7 +67,7 @@ function EmptyState({title,text,onReset,action='查看全部记录'}:{title:stri
 
 function EventRow({event,saved,onSave,onSelect,today}:{event:RopeEvent;saved:boolean;onSave:()=>void;onSelect:()=>void;today:string}) {
  const status=eventStatus(event,today);const docs=event.documents;const first=docs.find(d=>d.kind==='regulation')||docs[0];
- return <article className="competition-row catalog-grid"><div className="row-main"><div className="tags"><span className={'tag '+(event.level==='国际'?'international':'')}>{event.level}</span><span className={'status '+status.tone}><i/>{status.label}</span></div><button className="row-title" onClick={onSelect}>{event.title}</button></div><EventDate event={event}/><EventLocation event={event}/><div className="row-actions">{first?<a href={first.localPath?'.'+first.localPath:first.url} download={!!first.localPath} target={first.localPath?undefined:'_blank'} rel="noreferrer" className="row-download"><Download size={15}/>{first.kind==='regulation'?'规程':first.kind==='handbook'?'手册':'资料'}</a>:<button className="row-details" onClick={onSelect}>查看详情<ChevronRight size={14}/></button>}<button className={'bookmark-button '+(saved?'is-saved':'')} aria-label={(saved?'取消收藏':'收藏')+event.title} aria-pressed={saved} onClick={onSave}><Bookmark size={18} fill={saved?'currentColor':'none'}/></button></div></article>;
+ return <article className="competition-row"><EventCover event={event}/><div className="competition-info catalog-grid"><div className="row-main"><div className="tags"><span className={'tag '+(event.level==='国际'?'international':'')}>{event.level}</span><span className={'status '+status.tone}><i/>{status.label}</span></div><button className="row-title" onClick={onSelect}>{event.title}</button></div><EventDate event={event}/><EventLocation event={event}/><div className="row-actions">{first?<a href={first.localPath?'.'+first.localPath:first.url} download={!!first.localPath} target={first.localPath?undefined:'_blank'} rel="noreferrer" className="row-download"><Download size={15}/>{first.kind==='regulation'?'规程':first.kind==='handbook'?'手册':'资料'}</a>:<button className="row-details" onClick={onSelect}>查看详情<ChevronRight size={14}/></button>}<button className={'bookmark-button '+(saved?'is-saved':'')} aria-label={(saved?'取消收藏':'收藏')+event.title} aria-pressed={saved} onClick={onSave}><Bookmark size={18} fill={saved?'currentColor':'none'}/></button></div></div></article>;
 }
 
 function ColumnHead(){return <div className="catalog-columns catalog-grid" aria-hidden="true"><span>赛事名称</span><span>时间</span><span>地点</span><span className="column-action">操作</span></div>;}
