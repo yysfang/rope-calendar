@@ -89,3 +89,4 @@
  .season-month strong{font-size:23px}.season-month small{font-size:9px}.season-month{padding-inline:8px}.season-month-year{font-size:10px}
  .season-page .timeline-tabs{gap:14px}.season-page .result-count{flex-basis:100%;line-height:1.4}.season-page .results-bar{align-items:flex-start}.season-page .view-switch{margin-top:2px}
 }
+.analytics-choice{display:flex;align-items:center;gap:10px;font-size:14px;line-height:1.7;cursor:pointer}.analytics-choice input{width:16px;height:16px;accent-color:#0872e5;flex:none}
