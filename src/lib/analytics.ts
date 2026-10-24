@@ -1,8 +1,6 @@
 export type AnalyticsView = 'events'|'documents'|'saved';
 export type AnalyticsCommand = [string,...(string|boolean)[]];
 export type AnalyticsConfig = {siteId:string;hostname:string;basePath:string};
-type PublicEvent = {title:string};
-type PublicDocument = {title:string};
 type AnalyticsRuntime = {
  location:{protocol:string;hostname:string;pathname:string;search:string};
  storage?:Pick<Storage,'getItem'|'setItem'>;
@@ -35,15 +33,12 @@ export function createAnalytics(config:AnalyticsConfig,runtime:AnalyticsRuntime)
    return true;
   } catch {failed=true;return false;}
  };
- const label=(value:string)=>value.replace(/[\r\n\t]+/g,' ').trim().slice(0,220);
  return {
   page(view:AnalyticsView){
    if(lastView===view)return;
    const path={events:base,documents:base+'regulations',saved:base+'saved'}[view];
    if(send(['_trackPageview',path]))lastView=view;
   },
-  viewEvent(event:PublicEvent){send(['_trackEvent','赛事','查看详情',label(event.title)]);},
-  download(event:PublicEvent,document:PublicDocument){send(['_trackEvent','资料','下载点击',label(`${event.title}｜${document.title}`)]);},
   isExcluded,setExcluded,
  };
 }
