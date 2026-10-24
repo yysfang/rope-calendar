@@ -1912,7 +1912,14 @@
       "endDate": "2026-02-08",
       "dateStatus": "confirmed",
       "dateLabel": "2026年1月3、4、11、25日及2月8日",
-      "scheduleType": "event-period",
+      "scheduleType": "competition",
+      "competitionDates": [
+        "2026-01-03",
+        "2026-01-04",
+        "2026-01-11",
+        "2026-01-25",
+        "2026-02-08"
+      ],
       "registrationDeadline": null,
       "organizer": "中国香港跳绳总会",
       "summary": "设个人、团体、DDCHK、表演杯和大绳项目，按不同组别与日期参赛。",

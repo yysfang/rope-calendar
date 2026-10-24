@@ -21,6 +21,7 @@ export const eventSchema = z.object({
   startDate: date.nullable(), endDate: date.nullable(),
   dateStatus: z.enum(['confirmed', 'planned']), dateLabel: z.string().max(100).optional(),
   scheduleType: z.enum(['competition','event-period']).optional(),
+  competitionDates: z.array(date).min(1).max(366).optional(),
   registrationDeadline: date.nullable(), registrationStartDate: date.nullable().optional(),
   organizer: z.string().max(300), summary: z.string().max(1600), eligibility: z.string().max(800),
   sourceName: z.string().min(1).max(100), sourceUrl: safeUrl,
@@ -127,10 +128,10 @@ export function eventPresentation(event: RopeEvent) {
   return {title:event.title,date:dateLabel(event),location:[event.province,event.city,event.venue].filter((v,i,a)=>v && a.indexOf(v)===i).join(' · '),organizer:event.organizer,summary:event.summary,eligibility:event.eligibility,sourceName:event.sourceName,sourceUrl:event.sourceUrl};
 }
 export function calendarEligible(event: RopeEvent) {
-  return event.dateStatus === 'confirmed' && event.scheduleType !== 'event-period' && !!event.startDate && event.status !== 'cancelled' && event.status !== 'postponed';
+  return event.dateStatus === 'confirmed' && !!event.startDate && event.status !== 'cancelled' && event.status !== 'postponed';
 }
 export function eventsOnDate(events:RopeEvent[],date:string) {
-  return events.filter(event=>calendarEligible(event)&&event.startDate!<=date&&(event.endDate||event.startDate!)>=date);
+  return events.filter(event=>calendarEligible(event)&&(event.competitionDates?event.competitionDates.includes(date):event.startDate!<=date&&(event.endDate||event.startDate!)>=date));
 }
 const escapeICS = (text:string) => text.replace(/\\/g,'\\\\').replace(/\n/g,'\\n').replace(/;/g,'\\;').replace(/,/g,'\\,').replace(/\r/g,'');
 function foldICS(line:string) {
@@ -141,10 +142,14 @@ function foldICS(line:string) {
 export function buildICS(events: RopeEvent[]): string {
   const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Rope Calendar//ZH','CALSCALE:GREGORIAN','X-WR-CALNAME:绳历 · 跳绳赛事'];
   for (const event of events.filter(calendarEligible)) {
-    const end = new Date((event.endDate || event.startDate) + 'T00:00:00Z');
-    end.setUTCDate(end.getUTCDate()+1);
     const view=eventPresentation(event);
-    lines.push('BEGIN:VEVENT',`UID:${event.id}@rope-calendar`, `DTSTAMP:${new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}Z$/,'Z')}`,`DTSTART;VALUE=DATE:${event.startDate!.replace(/-/g,'')}`,`DTEND;VALUE=DATE:${end.toISOString().slice(0,10).replace(/-/g,'')}`,`SUMMARY:${escapeICS(event.title)}`,`LOCATION:${escapeICS(view.location)}`,`DESCRIPTION:${escapeICS(`${event.summary}\n官方来源：${event.sourceName}\n${event.sourceUrl}\n${event.scheduleNote || ''}`)}`,`URL:${event.sourceUrl}`,'END:VEVENT');
+    const period=event.scheduleType==='event-period';
+    for(const start of event.competitionDates || [event.startDate!]) {
+      const end = new Date((event.competitionDates?start:(event.endDate || start)) + 'T00:00:00Z');
+      end.setUTCDate(end.getUTCDate()+1);
+      const uid=event.competitionDates?`${event.id}-${start}`:event.id;
+      lines.push('BEGIN:VEVENT',`UID:${uid}@rope-calendar`, `DTSTAMP:${new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}Z$/,'Z')}`,`DTSTART;VALUE=DATE:${start.replace(/-/g,'')}`,`DTEND;VALUE=DATE:${end.toISOString().slice(0,10).replace(/-/g,'')}`,`SUMMARY:${escapeICS(event.title+(period?'（赛会时间）':''))}`,`LOCATION:${escapeICS(view.location)}`,`DESCRIPTION:${escapeICS(`${period?`赛会时间：${dateLabel(event)}\n`:''}${event.summary}\n官方来源：${event.sourceName}\n${event.sourceUrl}\n${event.scheduleNote || ''}`)}`,`URL:${event.sourceUrl}`,'END:VEVENT');
+    }
   }
   return [...lines,'END:VCALENDAR'].map(foldICS).join('\r\n')+'\r\n';
 }

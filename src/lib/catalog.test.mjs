@@ -120,9 +120,27 @@ test('validation rejects duplicate records and municipal events',()=>{
  assert.equal(validateCatalog(base).success,false);
  assert.equal(validateCatalog({...base,events:[{...event,level:'市级'}]}).success,false);
 });
-test('fixed calendar days exclude tentative, postponed, cancelled and arrival-inclusive windows',()=>{
+test('confirmed event periods appear throughout their published window and export as event periods',()=>{
  const records=[event,{...event,id:'planned',dateStatus:'planned'},{...event,id:'postponed',status:'postponed'},{...event,id:'cancelled',status:'cancelled'},{...event,id:'arrival-window',scheduleType:'event-period',dateLabel:'2026年11月6—8日（含报到）'}];
- assert.deepEqual(eventsOnDate(records,'2026-11-06').map(e=>e.id),['internal-event-key']);
+ for(const day of ['2026-11-06','2026-11-07','2026-11-08']) assert.deepEqual(eventsOnDate(records,day).map(e=>e.id),['internal-event-key','arrival-window']);
+ for(const day of ['2026-11-05','2026-11-09']) assert.deepEqual(eventsOnDate(records,day),[]);
  assert.equal(dateLabel(records[4]),'2026年11月6—8日（含报到）');
- assert.equal((buildICS(records).match(/BEGIN:VEVENT/g)||[]).length,1);
+ const ics=buildICS(records).replace(/\r\n /g,'');
+ assert.equal((ics.match(/BEGIN:VEVENT/g)||[]).length,2);
+ assert.match(ics,/SUMMARY:全国跳绳锦标赛（赛会时间）/);
+ assert.match(ics,/DTSTART;VALUE=DATE:20261106\r\nDTEND;VALUE=DATE:20261109/);
+ assert.match(ics,/赛会时间：2026年11月6—8日（含报到）/);
+});
+
+test('known non-consecutive competition dates do not fill the gaps in the calendar or export',()=>{
+ const parsed=validateCatalog({events:[{...event,startDate:'2026-01-03',endDate:'2026-02-08',competitionDates:['2026-01-03','2026-01-04','2026-01-11','2026-01-25','2026-02-08']}],reviewedAt:'2026-10-22T14:00:00Z',updateNote:'',coverageNote:'',sources:[],schedule:{enabled:false}});
+ assert.equal(parsed.success,true);
+ const record=parsed.data.events[0];
+ for(const day of ['2026-01-03','2026-01-04','2026-01-11','2026-01-25','2026-02-08']) assert.equal(eventsOnDate([record],day).length,1);
+ for(const day of ['2026-01-05','2026-01-24','2026-02-07']) assert.equal(eventsOnDate([record],day).length,0);
+ const ics=buildICS([record]);
+ assert.equal((ics.match(/BEGIN:VEVENT/g)||[]).length,5);
+ assert.equal(new Set([...ics.matchAll(/^UID:(.+)$/gm)].map(match=>match[1])).size,5);
+ assert.match(ics,/DTSTART;VALUE=DATE:20260103\r\nDTEND;VALUE=DATE:20260104/);
+ assert.match(ics,/DTSTART;VALUE=DATE:20260208\r\nDTEND;VALUE=DATE:20260209/);
 });
