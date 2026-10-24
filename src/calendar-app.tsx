@@ -1,6 +1,6 @@
 'use client';
-import { useEffect, useMemo, useState } from 'react';
-import { Search, ArrowUpRight, ArrowRight, CalendarDays, MapPin, FileText, Download, Bookmark, List, LayoutGrid, ChevronRight, Check, Clock3, X, CalendarPlus } from 'lucide-react';
+import { useEffect, useState } from 'react';
+import { Search, ArrowRight, CalendarDays, MapPin, FileText, Download, Bookmark, List, LayoutGrid, ChevronRight, Check, Clock3, X, CalendarPlus } from 'lucide-react';
 import { type Catalog, type RopeEvent, type Filters, filterEvents, groupEventsForBrowsing, eventStatus, dateLabel, todayShanghai, buildICS, calendarEligible, validateCatalog } from '@/lib/catalog';
 import RopeArt from '@/components/rope-art';
 import EventDialog from '@/components/event-dialog';
@@ -28,8 +28,6 @@ export default function CalendarApp({initialCatalog}:{initialCatalog:Catalog}) {
  const navigate=(target:View)=>{setView(target);setFilters({timeline:target==='events'?'upcoming':'all'});setMode('list');};
  const scrollToEvents=()=>document.getElementById('event-explorer')?.scrollIntoView({behavior:'smooth'});
  const updateFilter=(key:keyof Filters,value:string)=>setFilters(current=>({...current,[key]:value}));
- const upcoming=useMemo(()=>filterEvents(catalog.events,{timeline:'upcoming'},today),[catalog,today]);
- const nearest=upcoming.filter(event=>event.startDate&&event.dateStatus==='confirmed').sort((a,b)=>a.startDate!.localeCompare(b.startDate!))[0];
  const candidates=view==='saved'?catalog.events.filter(event=>saved.includes(event.id)):catalog.events;
  const visible=filterEvents(candidates,filters,today);
  const provinces=[...new Set(catalog.events.map(event=>event.province))].filter(Boolean).sort((a,b)=>a.localeCompare(b,'zh'));
@@ -43,7 +41,7 @@ export default function CalendarApp({initialCatalog}:{initialCatalog:Catalog}) {
 
  return <><header className="site-header"><div className="nav-shell"><button className="brand" onClick={()=>{navigate('events');window.scrollTo({top:0,behavior:'smooth'});}} aria-label="绳历首页"><RopeLogo/><span>绳历<span className="brand-en">ROPE CALENDAR</span></span></button><nav aria-label="主导航"><button className={view==='events'?'active':''} onClick={()=>navigate('events')}>赛事日历</button><button className={view==='documents'?'active':''} onClick={()=>{navigate('documents');setTimeout(scrollToEvents,30);}}>竞赛规程</button></nav><button className={'saved-nav '+(view==='saved'?'active':'')} onClick={()=>{navigate('saved');setTimeout(scrollToEvents,30);}}><Bookmark size={16}/><span>我的备赛</span>{saved.length>0&&<b>{saved.length}</b>}</button></div></header>
  <main>
-  <section className="hero page-width"><div className="hero-copy"><div className="hero-kicker"><span/>{currentYear} / {currentYear+1} 跳绳赛季</div><h1>每一场准备，<br/><span>都有方向。</span></h1><p>全国与国际跳绳赛事。</p><div className="hero-actions"><button className="button primary" onClick={()=>{navigate('events');setTimeout(scrollToEvents,30);}}>探索赛事<ArrowRight size={17}/></button><button className="text-button" onClick={()=>{navigate('documents');setTimeout(scrollToEvents,30);}}>查找竞赛规程<ChevronRight size={16}/></button></div></div><div className="hero-visual"><div className="visual-orbit"/><RopeArt/>{nearest&&<button className="next-event" onClick={()=>setSelected(nearest)}><span className="next-icon"><CalendarDays size={20}/></span><span><small>下一场 · {nearest.city||nearest.province}</small><strong>{shortDate(nearest.startDate)}{nearest.endDate&&nearest.endDate!==nearest.startDate?' — '+shortDate(nearest.endDate):''}</strong></span><ArrowUpRight size={18}/></button>}</div></section>
+  <section className="hero page-width"><div className="hero-copy"><div className="hero-kicker"><span/>{currentYear} / {currentYear+1} 跳绳赛季</div><h1>每一场准备，<br/><span>都有方向。</span></h1><p>全国与国际跳绳赛事。</p><div className="hero-actions"><button className="button primary" onClick={()=>{navigate('events');setTimeout(scrollToEvents,30);}}>探索赛事<ArrowRight size={17}/></button><button className="text-button" onClick={()=>{navigate('documents');setTimeout(scrollToEvents,30);}}>查找竞赛规程<ChevronRight size={16}/></button></div></div><div className="hero-visual"><div className="visual-orbit"/><RopeArt/></div></section>
 
   <section id="event-explorer" className="explorer page-width"><div className="section-heading"><h2>{view==='documents'?'竞赛规程':view==='saved'?'我的备赛':'赛事日历'}</h2><button className="button subtle export-button" onClick={()=>exportCalendar(visible)}><CalendarPlus size={16}/>导出日历</button></div>
    {warning&&<div className="notice warning"><Clock3 size={18}/><p>{warning}</p><button onClick={refresh}>重试</button></div>}
