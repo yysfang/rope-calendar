@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { eventStatus, filterEvents, groupEventsForBrowsing, buildICS, validateCatalog, eventPresentation, eventsOnDate, dateLabel } from './catalog.ts';
+import { eventStatus, filterEvents, groupEventsForBrowsing, buildICS, validateCatalog, eventPresentation, eventsOnDate, dateLabel, filtersForMonth } from './catalog.ts';
 
 const event = { id:'internal-event-key', title:'全国跳绳锦标赛', level:'全国', system:'体育', province:'江西', city:'赣州', venue:'安远县体育馆', startDate:'2026-11-06', endDate:'2026-11-08', dateStatus:'confirmed', registrationDeadline:'2026-10-15', organizer:'赛事主办方', summary:'跳绳比赛', eligibility:'以官方规程为准', sourceName:'体育总局', sourceUrl:'https://www.sport.gov.cn/example', documents:[], year:2026 };
 
@@ -63,6 +63,36 @@ test('ranking challenge events can be found by the common duanwei race name',()=
 test('a cross-year event remains discoverable by either year and overlaps month boundary',()=>{
  const crossing={...event,startDate:'2026-12-30',endDate:'2027-01-03'};
  assert.equal(filterEvents([crossing],{year:'2027'},'2026-10-22').length,1);
+});
+test('month navigation includes every touched month across month and year boundaries',()=>{
+ const crossing={...event,startDate:'2026-12-30',endDate:'2027-01-03'};
+ for(const month of ['2026-12','2027-01']) assert.equal(filterEvents([crossing],{month},'2026-10-24').length,1);
+ for(const month of ['2026-11','2027-02']) assert.equal(filterEvents([crossing],{month},'2026-10-24').length,0);
+ const monthEnd={...event,startDate:'2026-10-30',endDate:'2026-11-02'};
+ assert.equal(filterEvents([monthEnd],{month:'2026-11'},'2026-10-24').length,1);
+ assert.equal(filterEvents([monthEnd],{month:'2026-12'},'2026-10-24').length,0);
+ assert.equal(groupEventsForBrowsing([monthEnd],'2026-11')[0].months[0].label,'2026年 11月');
+});
+test('month navigation composes with existing filters without assigning unknown dates',()=>{
+ const unknown={...event,id:'unknown',startDate:null,endDate:null,dateStatus:'planned',dateLabel:'计划2026年11月 · 具体日期待公布'};
+ const cancelled={...event,id:'cancelled',status:'cancelled'};
+ const previous={...event,id:'previous',startDate:'2026-09-01',endDate:'2026-09-02'};
+ const records=[event,unknown,cancelled,previous];
+ assert.deepEqual(filterEvents(records,{month:'2026-11',level:'全国',province:'江西',query:'锦标赛',timeline:'upcoming'},'2026-10-24').map(e=>e.id),[event.id]);
+ assert.deepEqual(filterEvents(records,{month:'2026-09',timeline:'past'},'2026-10-24').map(e=>e.id),['previous']);
+ assert.equal(filterEvents(records,{month:'2026-11',year:'2027'},'2026-10-24').length,0);
+ assert.ok(filterEvents(records,{timeline:'upcoming'},'2026-10-24').some(e=>e.id==='unknown'));
+});
+test('selecting a month keeps ongoing boundary events and clearing restores undated upcoming events',()=>{
+ const crossing={...event,startDate:'2026-10-31',endDate:'2026-11-01'};
+ const unknown={...event,id:'unknown',startDate:null,endDate:null,dateStatus:'planned'};
+ const selected=filtersForMonth({year:'2027',query:'锦标赛',level:'全国'},'2026-10');
+ assert.equal(selected.year,'');
+ assert.equal(selected.query,'锦标赛');
+ assert.deepEqual(filterEvents([crossing,unknown],selected,'2026-11-01').map(e=>e.id),[event.id]);
+ const cleared=filtersForMonth(selected,'');
+ assert.equal(cleared.timeline,'upcoming');
+ assert.deepEqual(filterEvents([crossing,unknown],cleared,'2026-11-01').map(e=>e.id),[event.id,'unknown']);
 });
 test('calendar export uses exclusive ending date and omits tentative events',()=>{
  const ics=buildICS([event,{...event,id:'tentative',dateStatus:'planned'}]);

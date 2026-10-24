@@ -48,12 +48,15 @@ export const catalogSchema = z.object({
 export type RopeEvent = z.infer<typeof eventSchema>;
 export type Regulation = z.infer<typeof documentSchema>;
 export type Catalog = z.infer<typeof catalogSchema>;
-export type Filters = {query?:string; level?:string; province?:string; year?:string; timeline?:string};
+export type Filters = {query?:string; level?:string; province?:string; year?:string; month?:string; timeline?:string};
 export const eventLevelOrder = ['国际','全国','省级'] as const;
 const provinceOrder = ['北京','天津','河北','山西','内蒙古','辽宁','吉林','黑龙江','上海','江苏','浙江','安徽','福建','江西','山东','河南','湖北','湖南','广东','广西','海南','重庆','四川','贵州','云南','西藏','陕西','甘肃','青海','宁夏','新疆','香港','澳门','台湾'];
 export function validateCatalog(input: unknown) { return catalogSchema.safeParse(input); }
 export function todayShanghai() {
   return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date());
+}
+export function filtersForMonth(filters:Filters, month:string):Filters {
+ return {...filters,month,year:'',timeline:month?'all':'upcoming'};
 }
 export function eventStatus(event: RopeEvent, today = todayShanghai()): {label:string;tone:string} {
   if (event.status === 'cancelled') return {label:'已取消',tone:'gray'};
@@ -75,6 +78,7 @@ export function filterEvents(events: RopeEvent[], filters: Filters, today = toda
     if (filters.timeline === 'past' && !past) return false;
     if (filters.level && event.level !== filters.level) return false;
     if (filters.province && event.province !== filters.province) return false;
+    if (filters.month && (!event.startDate || event.startDate.slice(0,7) > filters.month || (event.endDate || event.startDate).slice(0,7) < filters.month)) return false;
     if (filters.year) {
       const startYear = Number(event.startDate?.slice(0,4) || event.year);
       const endYear = Number(event.endDate?.slice(0,4) || startYear);
@@ -96,12 +100,13 @@ export function filterEvents(events: RopeEvent[], filters: Filters, today = toda
     return filters.timeline === 'past' ? b.startDate.localeCompare(a.startDate) : a.startDate.localeCompare(b.startDate);
   });
 }
-export function groupEventsForBrowsing(events:RopeEvent[]) {
+export function groupEventsForBrowsing(events:RopeEvent[], displayMonth?:string) {
   return eventLevelOrder.map(level=>{
     const records=events.filter(event=>event.level===level);
     const months=new Map<string,RopeEvent[]>();
     for(const event of records){
-      const month=event.status==='cancelled'?'已取消':event.startDate?`${event.startDate.slice(0,4)}年 ${Number(event.startDate.slice(5,7))}月`:'赛期待定';
+      const monthKey=displayMonth||event.startDate?.slice(0,7);
+      const month=event.status==='cancelled'?'已取消':monthKey?`${monthKey.slice(0,4)}年 ${Number(monthKey.slice(5,7))}月`:'赛期待定';
       const label=level==='省级'?`${event.province} · ${month}`:month;
       const group=months.get(label)||[];group.push(event);months.set(label,group);
     }

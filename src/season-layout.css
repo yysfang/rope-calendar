@@ -1,0 +1,91 @@
+/* Selected season-navigation design. Existing event data and imagery are reused. */
+.page-width,.nav-shell{width:min(1228px,calc(100% - 96px))}
+.site-header{height:68px}
+.site-header .brand{font-size:25px}
+.site-header .brand-en{font-size:10px}
+.site-header nav button{font-size:14px}
+.site-header nav button.active:after{background:var(--blue)}
+.season-header{padding:44px 0 20px}
+.season-heading{display:flex;align-items:baseline;justify-content:space-between;gap:28px}
+.season-title{display:flex;align-items:baseline;gap:24px;min-width:0}
+.season-title h1{font-size:42px;line-height:1.25;letter-spacing:-1.2px;font-weight:650;white-space:nowrap}
+.season-title p{font-size:14px;color:var(--muted);line-height:1.7}
+.season-years{font-size:22px;font-weight:550;white-space:nowrap;color:#81818b;letter-spacing:.1px}
+.season-navigation{display:flex;align-items:center;gap:32px;margin-top:24px}
+.season-months{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,.9fr) minmax(0,1.8fr);flex:1;min-width:0}
+.season-month{position:relative;display:flex;flex-direction:column;align-items:flex-start;min-width:0;text-align:left;padding:0 18px;color:#86868f}
+.season-month:first-child{padding-left:0}
+.season-month+.season-month:before{content:"";position:absolute;top:30px;left:0;width:1px;height:44px;background:var(--line)}
+.season-month-year{font-size:12px;font-weight:500;line-height:18px;margin-bottom:10px;color:#777984}
+.mobile-month-year{visibility:hidden}
+.season-month strong{font-size:44px;font-weight:600;line-height:1.2;letter-spacing:-.6px;white-space:nowrap;position:relative;padding-bottom:12px}
+.season-month small{font-size:12px;line-height:19px;margin-top:9px;color:#686b75;white-space:nowrap}
+.season-month.is-highlighted{color:var(--ink)}
+.season-month.is-highlighted strong:after{content:"";position:absolute;bottom:0;left:0;width:100%;height:3px;background:var(--blue);border-radius:2px}
+.season-month:hover strong{color:var(--blue)}
+.all-months-button{display:flex;align-items:center;gap:7px;min-height:44px;padding:10px 0 10px 30px;border-left:1px solid var(--line);font-size:14px;color:var(--blue);white-space:nowrap}
+.season-page .explorer{padding:0 0 50px;scroll-margin-top:88px}
+.season-page .section-heading{justify-content:flex-end;margin:0 0 16px;min-height:0}
+.season-page .section-heading h2{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.season-page .export-button{min-height:30px;padding:4px 10px;border:0;background:none;border-radius:6px;font-size:11px;color:#81818b}
+.season-page .filter-panel{display:flex;flex-direction:column;background:transparent;border:0;border-radius:0;padding:0}
+.season-page .filter-controls{order:0;display:grid;grid-template-columns:minmax(0,1fr) 200px 184px;gap:12px}
+.season-page .search-field,.season-page .select-field{height:48px;border-color:#dfe2e9;border-radius:7px;min-width:0}
+.season-page .search-field input{font-size:14px}
+.season-page .select-field select{font-size:13px;flex:1;max-width:100%}
+.season-page .select-field>span{font-size:12px}
+.season-page .filter-top{order:1;display:block;margin:22px 0 0;border-bottom:1px solid var(--line)}
+.season-page .level-tabs{justify-content:flex-start;gap:32px}
+.season-page .level-tabs button{position:relative;padding:14px 0 18px;border-radius:0;font-size:14px;color:#86868f;box-shadow:none;background:none;min-height:44px}
+.season-page .level-tabs button.selected{color:var(--ink);background:none;box-shadow:none;font-weight:600}
+.season-page .level-tabs button.selected:after{content:"";position:absolute;bottom:-1px;left:0;right:0;height:2px;background:var(--blue)}
+.season-page .results-bar{padding:22px 0 24px;border-bottom:1px solid var(--line);margin-bottom:22px}
+.results-tools{display:flex;align-items:center;gap:14px;flex-shrink:0}
+.season-page .timeline-tabs{gap:28px}
+.season-page .timeline-tabs>button{font-size:13px;min-height:32px}
+.season-page .timeline-tabs>button.selected:after{bottom:-7px}
+.season-page .view-switch{border:0;background:none;padding:0}
+.season-page .event-list>.catalog-columns{display:none}
+.season-page .event-section-heading{margin-bottom:12px;padding-top:0}
+.season-page .event-section-heading h3{font-size:22px;font-weight:650}
+.season-page .month-label{margin:12px 0 12px}
+.season-page .month-label h4{font-size:14px;color:#464a55;font-weight:550}
+.season-page .month-label>span{font-size:11px}
+.season-page .active-filters{display:flex;gap:12px;align-items:center;margin:0 0 16px;font-size:12px;color:#6a6f7a}
+.active-month{display:flex;align-items:center;gap:6px;padding:5px 9px;background:#f1f6fc;border-radius:5px;color:#3e6a9d}
+.season-picker{width:min(520px,calc(100% - 32px));max-height:85dvh;border:1px solid #e6e8ed;border-radius:18px;padding:25px 28px 28px;margin:auto;color:var(--ink);background:#fff;box-shadow:0 24px 90px #19223825;overflow:auto}
+.season-picker::backdrop{background:#101c3238;backdrop-filter:blur(3px)}
+.season-picker-top{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:20px}
+.season-picker h2{font-size:22px;line-height:1.4;font-weight:600}
+.season-picker .icon-button{min-width:36px;min-height:36px}
+.picker-all{width:100%;border:1px solid var(--line);border-radius:8px;text-align:center;padding:11px 14px;font-size:14px;min-height:44px}
+.picker-all.is-selected,.picker-months button.is-selected{background:var(--blue);color:#fff;border-color:var(--blue)}
+.picker-year{margin-top:24px}
+.picker-year h3{font-size:15px;font-weight:600;margin-bottom:12px}
+.picker-months{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.picker-months button{min-height:44px;padding:10px 0;border:1px solid transparent;border-radius:7px;font-size:14px;background:#f7f8fa}
+.picker-months button.is-current:not(.is-selected){border-color:#a6c8ed;color:var(--blue)}
+.picker-months button:hover:not(.is-selected){background:#eaf3ff;color:var(--blue)}
+.picker-months button.is-selected{background:var(--blue);color:#fff}
+@media(max-width:1100px){
+ .season-title{gap:16px}.season-title h1{font-size:32px}.season-title p{font-size:13px}.season-years{font-size:19px}
+ .season-navigation{gap:20px}.season-month{padding-inline:18px}.season-month strong{font-size:32px}.all-months-button{font-size:13px;padding-left:18px}
+ .season-page .filter-controls{grid-template-columns:minmax(0,1fr) 166px 155px}.season-page .level-tabs{gap:28px}
+}
+@media(max-width:760px){
+ .page-width,.nav-shell{width:calc(100% - 36px)}.site-header{height:62px}
+ .season-header{padding:28px 0 20px}.season-heading{gap:16px;align-items:flex-start}.season-title{display:block}.season-title h1{font-size:28px;letter-spacing:-.7px}.season-title p{font-size:12px;margin-top:8px}.season-years{font-size:13px;margin-top:7px}
+ .season-navigation{display:block;margin-top:22px}.season-months{width:100%;grid-template-columns:repeat(4,minmax(0,1fr))}.season-month{padding:0 10px}.season-month+.season-month:before{top:25px;height:31px}.season-month-year{font-size:10px;line-height:15px;margin-bottom:10px}.season-month strong{font-size:26px;padding-bottom:10px;letter-spacing:-.5px}.season-month small{font-size:10px;line-height:16px;margin-top:7px}
+ .full-month-year{display:none}.mobile-month-year{visibility:visible}.all-months-button{border:0;margin:8px 0 -8px auto;padding:5px 0;min-height:34px;font-size:12px;gap:3px}.all-months-button svg{width:15px}
+ .season-page .section-heading{margin:0 0 10px}.season-page .export-button{font-size:10px;min-height:28px;padding:2px 0}.season-page .export-button svg{width:13px}
+ .season-page .filter-controls{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:9px}.season-page .search-field{grid-column:1/-1;height:44px;flex-basis:auto;padding:0 12px}.season-page .search-field input{font-size:13px}.season-page .select-field{height:40px;padding-inline:10px;gap:6px}.season-page .select-field select{font-size:12px;width:auto}.season-page .select-field>span{font-size:11px}
+ .season-page .filter-top{margin-top:14px}.season-page .level-tabs{width:100%;justify-content:space-between;gap:12px}.season-page .level-tabs button{font-size:13px;padding:12px 0 15px}
+ .season-page .results-bar{gap:8px;padding:14px 0 20px;margin-bottom:18px}.season-page .timeline-tabs{gap:18px;flex-wrap:wrap}.season-page .timeline-tabs>button{font-size:11px;min-height:30px}.season-page .result-count{font-size:9px;margin-left:0}.season-page .view-switch span{display:none}.season-page .view-switch button{padding:7px}.season-page .view-switch svg{width:16px}
+ .results-tools{gap:5px}
+ .season-page .event-section-heading h3{font-size:19px}.season-page .month-label h4{font-size:12px}.season-page .month-label>span{font-size:10px}.season-page .active-filters{margin-bottom:12px;font-size:11px;flex-wrap:wrap}
+ .season-picker{padding:20px;max-height:88dvh}.season-picker h2{font-size:20px}.picker-months{gap:7px}
+}
+@media(max-width:480px){
+ .season-month strong{font-size:23px}.season-month small{font-size:9px}.season-month{padding-inline:8px}.season-month-year{font-size:10px}
+ .season-page .timeline-tabs{gap:14px}.season-page .result-count{flex-basis:100%;line-height:1.4}.season-page .results-bar{align-items:flex-start}.season-page .view-switch{margin-top:2px}
+}
