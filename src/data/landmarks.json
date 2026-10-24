@@ -51,18 +51,19 @@
   {
     "key": "huaibei",
     "place": "淮北",
-    "title": "淮北 · 城市天际线",
+    "title": "淮北 · 南湖湿地公园氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "安徽|淮北"
     ],
-    "src": "./landmarks/huaibei.webp",
-    "mobileSrc": "./landmarks/huaibei-mobile.webp",
-    "author": "Nickm57",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huaibei_easterly_view_(cropped).jpg",
-    "license": "CC0",
-    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "position": "center"
+    "src": "./landmarks/huaibei-v2.webp",
+    "mobileSrc": "./landmarks/huaibei-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/huaibei-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "bangkok",
@@ -230,18 +231,19 @@
   {
     "key": "putian",
     "place": "莆田",
-    "title": "莆田 · 南少林寺",
+    "title": "莆田 · 湄洲岛氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "福建|莆田"
     ],
-    "src": "./landmarks/putian.webp",
-    "mobileSrc": "./landmarks/putian-mobile.webp",
-    "author": "A. Hoffmann",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Putian_Banner.jpg",
-    "license": "CC BY-SA 3.0 de",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
-    "position": "center"
+    "src": "./landmarks/putian-v2.webp",
+    "mobileSrc": "./landmarks/putian-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/putian-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "wuhu",
@@ -426,18 +428,19 @@
   {
     "key": "longgang",
     "place": "温州市龙港市",
-    "title": "温州市龙港市 · 举办地风光",
+    "title": "温州龙港 · 月湖公园氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "浙江|温州市龙港市"
     ],
-    "src": "./landmarks/longgang.webp",
-    "mobileSrc": "./landmarks/longgang-mobile.webp",
-    "author": "Y Chen",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:An_overall_view_of_the_Town_of_Longgang,_Zhejiang_Province,_P.R._China.jpg",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "position": "center"
+    "src": "./landmarks/longgang-v2.webp",
+    "mobileSrc": "./landmarks/longgang-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/longgang-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "luocheng",
@@ -457,35 +460,37 @@
   },
   {
     "key": "guangzhou",
-    "place": "广州",
-    "title": "广州 · 珠江新城",
+    "place": "广州花都",
+    "title": "广州花都 · 花都湖氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "广东|广州市花都区"
     ],
-    "src": "./landmarks/guangzhou.webp",
-    "mobileSrc": "./landmarks/guangzhou-mobile.webp",
-    "author": "chensiyuan",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guangzhou_dusk_panorama.jpg",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "position": "center"
+    "src": "./landmarks/huadu-v2.webp",
+    "mobileSrc": "./landmarks/huadu-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/huadu-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "yinchuan",
     "place": "银川",
-    "title": "银川 · 举办地风光",
+    "title": "银川 · 览山公园氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "宁夏|银川"
     ],
-    "src": "./landmarks/yinchuan.webp",
-    "mobileSrc": "./landmarks/yinchuan-mobile.webp",
-    "author": "Windmemories",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:20260810_Yinchuan_Bell_and_Drum_Tower.jpg",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "position": "center"
+    "src": "./landmarks/yinchuan-v2.webp",
+    "mobileSrc": "./landmarks/yinchuan-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/yinchuan-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "jinzhou",
@@ -650,18 +655,19 @@
   {
     "key": "xiongan",
     "place": "雄安新区",
-    "title": "雄安新区 · 举办地风光",
+    "title": "雄安新区 · 悦容公园氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "河北|雄安新区"
     ],
-    "src": "./landmarks/xiongan.webp",
-    "mobileSrc": "./landmarks/xiongan-mobile.webp",
-    "author": "N509FZ",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:West_facade_of_Xiongan_Railway_Station_(20201227143758).jpg",
-    "license": "CC BY-SA 4.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
-    "position": "center"
+    "src": "./landmarks/xiongan-v2.webp",
+    "mobileSrc": "./landmarks/xiongan-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/xiongan-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "pingshun",
@@ -826,18 +832,19 @@
   {
     "key": "dongying",
     "place": "东营",
-    "title": "东营 · 清风湖公园",
+    "title": "东营 · 黄河入海口氛围图（AI生成）",
     "kind": "city",
     "matches": [
       "山东|东营"
     ],
-    "src": "./landmarks/dongying.webp",
-    "mobileSrc": "./landmarks/dongying-mobile.webp",
-    "author": "rheins",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dongying_Wikivoyage_banner.jpg",
-    "license": "CC BY 3.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
-    "position": "center"
+    "src": "./landmarks/dongying-v2.webp",
+    "mobileSrc": "./landmarks/dongying-v2-mobile.webp",
+    "author": "绳历 · AI生成",
+    "sourceUrl": "https://github.com/yysfang/rope-calendar/blob/main/public/landmarks/dongying-v2.webp",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "position": "center",
+    "generated": true
   },
   {
     "key": "rope",
