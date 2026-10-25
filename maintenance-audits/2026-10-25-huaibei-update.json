@@ -1,0 +1,159 @@
+{
+  "checkedAt": "2026-10-25T14:39:39Z",
+  "scope": "淮北三赛合一赛事信息定向更新；非全国目录全面复查",
+  "userRequest": "更新三赛合一及11月12—16日赛会时间；不展示晋级机会或奖金宣传。",
+  "sources": [
+    {
+      "url": "http://www.chinajiansheng.com.cn/xhjs/2026/1020/712231.html",
+      "kind": "协会原规程及已保存的完整网页",
+      "findings": "联赛11月12日报到、13—15日比赛、16日离会；淮北市体育馆；10月30日12:00报名截止。"
+    },
+    {
+      "url": "https://loopdata.loopsports.cn/china_rope_match/detail?id=30377",
+      "kind": "官方公开赛事接口",
+      "findings": "国际公开赛已开放报名，截止为10月30日12:00；规程正文为空；系统结束字段为11月14日，不作为完整会期或正式比赛日。"
+    },
+    {
+      "url": "https://loopdata.loopsports.cn/china_rope_match/detail?id=30375",
+      "kind": "官方公开赛事接口",
+      "findings": "安徽淮北站与国际公开赛分别报名；保留两条原有记录，说明三赛合一关系，不另建第三条大奖赛记录。"
+    },
+    {
+      "url": "https://jumpropeindia.com/news/🇨🇳-2026-huaibei-china-international-jump-rope-grand-prix/",
+      "kind": "印度跳绳联合会参赛通知（2026-09-24）",
+      "findings": "确认11月12—16日及Huaibei City Gymnasium；印度队10月15日期限不套用国内报名。"
+    },
+    {
+      "kind": "用户提供的最新通知摘录",
+      "findings": "确认中国国际跳绳公开赛、淮北市相山区国际跳绳大奖赛和全国跳绳联赛安徽淮北站三赛合一，11月12—16日举行。"
+    }
+  ],
+  "changes": {
+    "before": {
+      "anhui-national-league-2026": {
+        "id": "anhui-national-league-2026",
+        "title": "2026年全国跳绳联赛（安徽淮北站）",
+        "level": "全国",
+        "system": "体育",
+        "province": "安徽",
+        "city": "淮北",
+        "venue": "淮北市体育馆",
+        "startDate": "2026-11-13",
+        "endDate": "2026-11-15",
+        "dateStatus": "confirmed",
+        "registrationDeadline": "2026-10-30",
+        "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会、淮北市人民政府",
+        "summary": "10月20日发布本站规程，报名于10月30日12:00截止。",
+        "eligibility": "按全国联赛总规程和本站通知组队参赛。",
+        "sourceName": "中国毽球跳绳协会",
+        "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/1020/712231.html",
+        "documents": [
+          {
+            "title": "2026年全国跳绳联赛（安徽淮北站）竞赛规程（官方网页存档）",
+            "url": "http://www.chinajiansheng.com.cn/xhjs/2026/1020/712231.html",
+            "localPath": "/regulations/anhui-league-2026-official-archive.html",
+            "format": "HTML",
+            "kind": "regulation",
+            "note": "从官方原文保存的 HTML 网页存档，非原始 PDF 文件。"
+          }
+        ],
+        "year": 2026,
+        "scheduleNote": "11月12日报到，13—15日比赛，16日离会。官网注明食宿付款截止10月25日，早于报名截止，须提前核对。"
+      },
+      "china-international-open-2026": {
+        "id": "china-international-open-2026",
+        "title": "2026年中国国际跳绳公开赛",
+        "level": "国际",
+        "system": "国际",
+        "province": "安徽",
+        "city": "淮北（承办公示中）",
+        "venue": "待公布",
+        "startDate": null,
+        "endDate": null,
+        "dateStatus": "planned",
+        "dateLabel": "2026年 · 赛期待公布",
+        "registrationDeadline": null,
+        "organizer": "中国毽球跳绳协会（承办单位递补公示）",
+        "summary": "10月19日公告拟由淮北市相山区人民政府递补承办，公示期截至10月23日，正式赛期和规程待公布。",
+        "eligibility": "未公布",
+        "sourceName": "中国毽球跳绳协会",
+        "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/1019/712237.html",
+        "documents": [],
+        "year": 2026,
+        "scheduleNote": "承办单位目前处于公示期；不据往届日期推算本届赛期。"
+      }
+    },
+    "after": {
+      "anhui-national-league-2026": {
+        "id": "anhui-national-league-2026",
+        "title": "2026年全国跳绳联赛（安徽淮北站）",
+        "level": "全国",
+        "system": "体育",
+        "province": "安徽",
+        "city": "淮北",
+        "venue": "淮北市体育馆",
+        "startDate": "2026-11-13",
+        "endDate": "2026-11-15",
+        "dateStatus": "confirmed",
+        "registrationDeadline": "2026-10-30",
+        "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会、淮北市人民政府",
+        "summary": "与中国国际跳绳公开赛、淮北市相山区国际跳绳大奖赛三赛合一举办。报名于10月30日12:00截止。",
+        "eligibility": "按全国联赛总规程和本站通知组队参赛。",
+        "sourceName": "中国毽球跳绳协会",
+        "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/1020/712231.html",
+        "documents": [
+          {
+            "title": "2026年全国跳绳联赛（安徽淮北站）竞赛规程（官方网页存档）",
+            "url": "http://www.chinajiansheng.com.cn/xhjs/2026/1020/712231.html",
+            "localPath": "/regulations/anhui-league-2026-official-archive.html",
+            "format": "HTML",
+            "kind": "regulation",
+            "note": "从官方原文保存的 HTML 网页存档，非原始 PDF 文件。"
+          }
+        ],
+        "year": 2026,
+        "scheduleNote": "11月12日报到，13—15日比赛，16日离会。官网注明食宿付款截止10月25日，早于报名截止，须提前核对。"
+      },
+      "china-international-open-2026": {
+        "id": "china-international-open-2026",
+        "title": "2026年中国国际跳绳公开赛·淮北市相山区国际跳绳大奖赛",
+        "level": "国际",
+        "system": "国际",
+        "province": "安徽",
+        "city": "淮北",
+        "venue": "淮北市体育馆",
+        "startDate": "2026-11-12",
+        "endDate": "2026-11-16",
+        "dateStatus": "confirmed",
+        "dateLabel": "2026年11月12—16日（赛会时间）",
+        "scheduleType": "event-period",
+        "registrationDeadline": "2026-10-30",
+        "organizer": "中国毽球跳绳协会",
+        "summary": "与全国跳绳联赛（安徽淮北站）三赛合一举办。",
+        "eligibility": "参赛资格与组别以国际公开赛专项规程为准。",
+        "sourceName": "中国毽球跳绳协会 / CJRU绳队友赛事平台",
+        "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30377",
+        "documents": [],
+        "year": 2026,
+        "scheduleNote": "11月12—16日为赛会时间；国际公开赛与大奖赛具体比赛日以组委会赛程为准。"
+      }
+    }
+  },
+  "decisions": [
+    "国际记录显示11月12—16日赛会窗口并进入月历、日历导出；联赛保留已确认的13—15日正式比赛日及报到/离会说明。",
+    "未将全国联赛规程误标为国际公开赛规程，国际专项规程仍待补。",
+    "保留原始赛事ID及全部其他记录；晋级和奖金信息不进入赛事摘要、日期说明或更新说明。",
+    "城市字段使用淮北，区级名称保留在赛事名称中，沿用原有淮北配图。"
+  ],
+  "accessNotes": [
+    "网页搜索工具自动切换协会网址至HTTPS后失败；直接HTTP访问协会官网成功。",
+    "检索未找到最新公众号原文链接，三赛合一关系按用户明确提供的通知更新。"
+  ],
+  "verification": {
+    "tests": "36/36 passed",
+    "typecheck": "passed",
+    "calendar": "国际记录覆盖11月12—16日，联赛覆盖13—15日；导出国际赛会结束日期为11月17日（排他结束）。",
+    "ui": "桌面和390px手机列表无横向溢出；详情、月历与全国联赛规程入口可用；页面未展示晋级、奖金宣传。",
+    "unchangedEvents": 71
+  }
+}

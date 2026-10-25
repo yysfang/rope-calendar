@@ -102,7 +102,7 @@
       "dateStatus": "confirmed",
       "registrationDeadline": "2026-10-30",
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会、淮北市人民政府",
-      "summary": "10月20日发布本站规程，报名于10月30日12:00截止。",
+      "summary": "与中国国际跳绳公开赛、淮北市相山区国际跳绳大奖赛三赛合一举办。报名于10月30日12:00截止。",
       "eligibility": "按全国联赛总规程和本站通知组队参赛。",
       "sourceName": "中国毽球跳绳协会",
       "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/1020/712231.html",
@@ -225,25 +225,26 @@
     },
     {
       "id": "china-international-open-2026",
-      "title": "2026年中国国际跳绳公开赛",
+      "title": "2026年中国国际跳绳公开赛·淮北市相山区国际跳绳大奖赛",
       "level": "国际",
       "system": "国际",
       "province": "安徽",
-      "city": "淮北（承办公示中）",
-      "venue": "待公布",
-      "startDate": null,
-      "endDate": null,
-      "dateStatus": "planned",
-      "dateLabel": "2026年 · 赛期待公布",
-      "registrationDeadline": null,
-      "organizer": "中国毽球跳绳协会（承办单位递补公示）",
-      "summary": "10月19日公告拟由淮北市相山区人民政府递补承办，公示期截至10月23日，正式赛期和规程待公布。",
-      "eligibility": "未公布",
-      "sourceName": "中国毽球跳绳协会",
-      "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/1019/712237.html",
+      "city": "淮北",
+      "venue": "淮北市体育馆",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-16",
+      "dateStatus": "confirmed",
+      "dateLabel": "2026年11月12—16日（赛会时间）",
+      "scheduleType": "event-period",
+      "registrationDeadline": "2026-10-30",
+      "organizer": "中国毽球跳绳协会",
+      "summary": "与全国跳绳联赛（安徽淮北站）三赛合一举办。",
+      "eligibility": "参赛资格与组别以国际公开赛专项规程为准。",
+      "sourceName": "中国毽球跳绳协会 / CJRU绳队友赛事平台",
+      "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30377",
       "documents": [],
       "year": 2026,
-      "scheduleNote": "承办单位目前处于公示期；不据往届日期推算本届赛期。"
+      "scheduleNote": "11月12—16日为赛会时间；国际公开赛与大奖赛具体比赛日以组委会赛程为准。"
     },
     {
       "id": "fujian-games-industry-2026",
@@ -2161,8 +2162,8 @@
       "scheduleNote": "7月1日抵达，2日比赛与工作坊，3日观摩世锦赛决赛，4日离会；具体日程以最终通知为准。"
     }
   ],
-  "reviewedAt": "2026-10-23T12:48:15Z",
-  "updateNote": "更新河北站延期与场馆调整通知，补齐宁夏站赛期、场馆、报名截止及规程附件。",
+  "reviewedAt": "2026-10-25T14:39:39Z",
+  "updateNote": "更新淮北三赛合一信息，确认国际公开赛暨大奖赛11月12—16日赛会时间、举办地点和报名期限。",
   "coverageNote": "本次补核河北、宁夏段位赛最新通知。既往逐省核查中部分官方来源访问受限、部分规程未公开，京津冀邀请赛等线索仍待补核；检索未发现不等于没有赛事。",
   "sources": [
     {
@@ -2514,6 +2515,11 @@
       "name": "中国残疾人联合会",
       "url": "https://www.cdpf.org.cn/xwzx/dfdt1/fb38a6fbe3f14dd2a93ba1c1847a43a0.htm",
       "category": "体育赛事"
+    },
+    {
+      "name": "中国毽球跳绳协会 / CJRU绳队友赛事平台",
+      "url": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30377",
+      "category": "赛事通知"
     }
   ],
   "schedule": {
