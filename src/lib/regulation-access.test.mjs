@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {regulationAccess} from './regulation-access.ts';
+import {regulationAccess,regulationDownloadBlob} from './regulation-access.ts';
 
 const doc={title:'2026年全国跳绳段位挑战赛（河北站）最新通知（官方网页存档）',format:'HTML',localPath:'/regulations/hebei-notice.html',url:'https://official.example/notice'};
 const base='https://yysfang.github.io/rope-calendar/?analytics=off';
@@ -41,4 +41,13 @@ test('every published document resolves to a nonempty file within the GitHub pro
   const bytes=await readFile(new URL('../../public'+document.localPath,import.meta.url));
   assert.ok(bytes.length>=100,document.title);
  }
+});
+
+test('web archive saves preserve full content and refuse empty or failed responses',async()=>{
+ const content='<!doctype html><html lang="zh"><body>竞赛规程</body></html>';
+ const blob=await regulationDownloadBlob('https://official.example/rules.html',async()=>new Response(content));
+ assert.equal(await blob.text(),content);
+ assert.equal(blob.type,'application/octet-stream');
+ await assert.rejects(regulationDownloadBlob('https://official.example/rules.html',async()=>new Response('')));
+ await assert.rejects(regulationDownloadBlob('https://official.example/rules.html',async()=>new Response('Not Found',{status:404})));
 });
