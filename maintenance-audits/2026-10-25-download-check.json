@@ -1,0 +1,651 @@
+{
+  "checkedDate": "2026-10-25",
+  "baseUrl": "https://yysfang.github.io/rope-calendar/",
+  "events": 73,
+  "references": 68,
+  "files": 64,
+  "method": "Anonymous full response body downloads; binary equality; HTML equality after CRLF/LF normalization.",
+  "failed": [],
+  "results": [
+    {
+      "path": "/regulations/anlong-league-2026-official-archive.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 6099,
+      "seconds": 1.44,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/heilongjiang-2026-regulations.docx",
+      "format": "DOCX",
+      "status": 200,
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "bytes": 26521,
+      "seconds": 1.44,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/anhui-league-2026-official-archive.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 6267,
+      "seconds": 1.55,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/shanghai-2026-official-archive.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 9574,
+      "seconds": 1.81,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/korea-2027-handbook.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 2056193,
+      "seconds": 2.94,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/fujian-industry-games-2026-general-regulations.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 61528,
+      "seconds": 1.61,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/student-university-2026-regulations.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 243754,
+      "seconds": 2.75,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/student-university-latest-2026.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 291021,
+      "seconds": 2.48,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/european-2026-addendum.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1094669,
+      "seconds": 2.3,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/worlds-2027-addendum.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 941823,
+      "seconds": 6.89,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/ganzhou-2026-official-archive.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 16008,
+      "seconds": 1.55,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/worlds-2027-information.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1588578,
+      "seconds": 8.61,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/beijing-games-2026-official-archive.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 10152,
+      "seconds": 1.16,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/ganzhou-2026-supplement.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 370204,
+      "seconds": 1.73,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/hongkong-2026-handbook.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 6359644,
+      "seconds": 3.75,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/european-2026-brochure.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 5684001,
+      "seconds": 6.98,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/duanwei-hainan-2026-regulations-and-venue.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 152685,
+      "seconds": 1.59,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/thailand-2026-handbook.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 13912650,
+      "seconds": 13.64,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/duanwei-fujian-2026-date-notice.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1655,
+      "seconds": 1.33,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/guangdong-schools-2026-regulations.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1771208,
+      "seconds": 2.88,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/cq-vocational-reg.docx",
+      "format": "DOCX",
+      "status": 200,
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "bytes": 418614,
+      "seconds": 3.19,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/duanwei-anhui-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 75060,
+      "seconds": 1.55,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/national-league-jiangyin-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 231732,
+      "seconds": 1.77,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/national-league-yuexi-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 5700,
+      "seconds": 1.36,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/jiangyin-2026-events.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 50922,
+      "seconds": 1.83,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-league-lushan-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 5432,
+      "seconds": 1.61,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/national-league-lanxi-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 5638,
+      "seconds": 1.16,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/national-league-fenyi-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 6041,
+      "seconds": 1.17,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/national-duanwei-ningxia-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 143041,
+      "seconds": 1.72,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/national-duanwei-ningxia-2026-events-and-groups.docx",
+      "format": "DOCX",
+      "status": 200,
+      "contentType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "bytes": 146999,
+      "seconds": 1.86,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/luocheng-2026-cancellation-notice.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 732726,
+      "seconds": 2.39,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/fujian-university-games-2026-regulations.doc",
+      "format": "DOC",
+      "status": 200,
+      "contentType": "application/msword",
+      "bytes": 1268016,
+      "seconds": 3.12,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/shanghai-family-baoshan-2026-official-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1541880,
+      "seconds": 3.55,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/gd-winter-reg.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1214186,
+      "seconds": 3.11,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/worlds-2027-brochure.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 9188585,
+      "seconds": 19.51,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/cq-schools-reg.doc",
+      "format": "DOC",
+      "status": 200,
+      "contentType": "application/msword",
+      "bytes": 100352,
+      "seconds": 1.61,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-league-baoding-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 6645,
+      "seconds": 1.22,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-duanwei-hebei-2026-update-20261022.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1785,
+      "seconds": 1.42,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/sichuan-university-2026-regulations.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 724213,
+      "seconds": 3.25,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/guangdong-universities-2026-regulations.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1776278,
+      "seconds": 5.17,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-league-changsha-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 6860,
+      "seconds": 3.16,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-duanwei-jiangsu-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1302945,
+      "seconds": 2.16,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/shanxi-games-mass-rope-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 10240,
+      "seconds": 1.22,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/national-duanwei-hebei-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 664648,
+      "seconds": 2.83,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/hunan-championship-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 18837,
+      "seconds": 1.58,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/shanxi-youth-club-rope-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 8723,
+      "seconds": 1.39,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/liaoning-students-rope-finals-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 25677,
+      "seconds": 1.42,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/fujian-provincial-league-quanzhou-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 26051,
+      "seconds": 1.41,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/gd-summer-reg.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1109277,
+      "seconds": 8.16,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/fujian-mazu-cup-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 38407,
+      "seconds": 1.61,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/anhui-youth-elite-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 12231,
+      "seconds": 1.28,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/student-school-national-2026-regulations.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 283445,
+      "seconds": 1.94,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/fujian-provincial-league-putian-2026-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 2851302,
+      "seconds": 3.58,
+      "contentMatches": true,
+      "lineEndingsOnly": true
+    },
+    {
+      "path": "/regulations/national-youth-traditional-final-2026-notice.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 2021953,
+      "seconds": 2.33,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-youth-traditional-province-2026-schedule.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1312788,
+      "seconds": 3.09,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/hk-elite-2026-regulations.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1228472,
+      "seconds": 3.33,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/hk-elite-ddc-2026-regulations-updated.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 602014,
+      "seconds": 2.06,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-duanwei-2026-general-regulations.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 977463,
+      "seconds": 2.49,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-youth-traditional-rope-final-2026-1.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 18760733,
+      "seconds": 8.45,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/asian-championship-2026-participation.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 1320014,
+      "seconds": 2.77,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/korea-2026-handbook.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 1843694,
+      "seconds": 7.39,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-duanwei-2026-calendar.html",
+      "format": "HTML",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 427042,
+      "seconds": 2.09,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/singapore-2026-handbook.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 7163888,
+      "seconds": 9.23,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    },
+    {
+      "path": "/regulations/national-youth-traditional-rope-qualifier-2026-1.pdf",
+      "format": "PDF",
+      "status": 200,
+      "contentType": "application/pdf",
+      "bytes": 20174153,
+      "seconds": 37.12,
+      "contentMatches": true,
+      "lineEndingsOnly": false
+    }
+  ]
+}
