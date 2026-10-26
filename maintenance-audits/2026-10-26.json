@@ -1,0 +1,92 @@
+{
+  "auditedAt": "2026-10-26T01:04:00Z",
+  "timezone": "Asia/Shanghai",
+  "base": {
+    "branch": "main",
+    "commit": "7c843f6b03005394692d650bbdf4bed90803900e",
+    "agentsSha": "c67c00935def6211ae863e4bb869e575b188ec1f",
+    "maintenanceSha": "fd3f6b207723104f42c1ed863b557fe4459a083a",
+    "seedSha": "049a391ba60d177de0224e358e159cc60e1102c9",
+    "publicReviewedAt": "2026-10-25T14:39:39Z"
+  },
+  "scope": [
+    {
+      "source": "CJRU绳队友官方赛事目录",
+      "url": "https://loopdata.loopsports.cn/china_rope_match/list",
+      "checked": "读取按更新时间排序的第一页（total=175，10条）；对照 seed.json 核对新加坡公开赛、河北/江苏/海南/福建段位站、淮北/分宜/安龙联赛、中国国际公开赛、辽宁学生赛、黑龙江公开赛等近期记录。",
+      "result": "未发现比当前目录更新的省级及以上赛事信息；榆次区中小学生赛为区级，按范围排除。"
+    },
+    {
+      "source": "CJRU绳队友官方公告目录",
+      "url": "https://loopdata.loopsports.cn/notice_culture/list",
+      "checked": "读取按发布时间排序的第一页（total=646，10条）。最新公告为2026-10-22讣告；最近赛事公告为2026-10-21分宜站成绩公告。",
+      "result": "未发现新的赛事规程、改期、延期或取消通知。"
+    },
+    {
+      "source": "中国学生体育联合会通知目录",
+      "url": "https://www.sports.edu.cn/tapi/ssportweb/dataList.jsp?channelSerialNo=s35_a_k&fields=id%2CTitle%2CPublishDate&order=1&currentPage=1&pageNum=1000",
+      "checked": "完整读取本频道330条通知；检索跳绳相关条目及其后的更新。",
+      "result": "最新跳绳条目仍为全国大学生跳绳锦标赛参赛通知（id=307）；未发现后续补充、改期或取消通知。"
+    },
+    {
+      "source": "IJRU赛事日历与2027世锦赛专页",
+      "urls": [
+        "https://ijru.sport/events",
+        "https://ijru.sport/2027-world-championships"
+      ],
+      "checked": "核对2026泰国皇后杯、2027韩国公开赛、2027世锦赛赛事周及同期挪威公开赛/ISF说明。",
+      "result": "现有 seed.json 已包含相关记录；ISF独立专项补充文件仍标明待后续发布，未发现新版文件。"
+    },
+    {
+      "source": "ERSO赛事目录",
+      "url": "https://erso.info/competitions/",
+      "checked": "核对近期赛事和未来赛事栏目。",
+      "result": "仍列2026欧洲锦标赛与2027欧洲表演赛承办意向；无可新增的确定赛期或规程。"
+    },
+    {
+      "source": "AJRU 2026亚洲锦标赛专页",
+      "url": "https://www.ajru.sport/ac2026/",
+      "checked": "网页抓取返回空正文，仅与IJRU日历及现有记录交叉。",
+      "result": "未取得可验证的新公告。"
+    },
+    {
+      "source": "当年与下一年度逐省增量检索",
+      "checked": "以2026-10-23逐省初筛为基线，将31个省级地区分四组检索2026/2027跳绳竞赛规程、通知、延期与取消；同时核对体育总局公开结果。",
+      "result": "检索结果仅出现现有目录已收录事项，或高校/市县级赛事（按范围排除）；未把“未发现”表述为“无赛事”。"
+    },
+    {
+      "source": "教育部、体育总局及国际主办方公开检索",
+      "checked": "核对2026-10-23以后可检索的跳绳赛事通知和官方页面。",
+      "result": "未发现需要更新目录的新增或重要变化。"
+    }
+  ],
+  "accessFailures": [
+    {
+      "source": "中国毽球跳绳协会官网",
+      "url": "https://www.chinajiansheng.com.cn/",
+      "error": "普通抓取不可访问；受控浏览器返回 upstream connect error / remote connection failure。",
+      "mitigation": "以CJRU公开赛事/公告目录、体育总局结果及已收录协会通知交叉核对；不能声称官网已完整遍历。"
+    },
+    {
+      "source": "AJRU 2026亚洲锦标赛专页",
+      "url": "https://www.ajru.sport/ac2026/",
+      "error": "搜索抓取仅返回空正文。",
+      "mitigation": "以IJRU赛事日历交叉核对；未据此更新。"
+    },
+    {
+      "source": "ISF跳绳专项页",
+      "url": "https://www.isfsports.org/sports/jump-rope",
+      "error": "本轮官方站点检索未返回可读取的专项文件结果。",
+      "mitigation": "保留现有 planned 状态与“独立专项规程待发布”说明。"
+    }
+  ],
+  "pending": [
+    {
+      "item": "全港交互绳锦标赛暨中国香港跳绳代表队选拔赛2026",
+      "url": "https://hkrsf.org/%E5%85%A8%E6%B8%AF%E4%BA%A4%E4%BA%92%E7%B9%A9%E9%8C%A6%E6%A8%99%E8%B3%BD%E6%9A%A8%E4%B8%AD%E5%9C%8B%E9%A6%99%E6%B8%AF%E8%B7%B3%E7%B9%A9%E4%BB%A3%E8%A1%A8%E9%9A%8A%E9%81%B8%E6%8B%94%E8%B3%BD-2026/",
+      "note": "搜索发现2026-10-04已举办赛事，但主办方与maintenance.json列明的中国香港跳绳总会并非同一机构；需先核实赛事级别与纳入范围，暂不写入公开目录。"
+    }
+  ],
+  "publicChanges": [],
+  "conclusion": "无实质赛事或规程变化；不修改 src/data/seed.json，不更新公开 reviewedAt，不运行或触发网页构建。"
+}
