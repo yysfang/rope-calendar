@@ -518,9 +518,11 @@
       "province": "海南",
       "city": "三亚",
       "venue": "西南大学三亚中学",
-      "startDate": "2026-11-07",
-      "endDate": "2026-11-08",
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-09",
       "dateStatus": "confirmed",
+      "dateLabel": "2026年11月6—9日（赛会时间）",
+      "scheduleType": "event-period",
       "registrationDeadline": "2026-10-26",
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
       "summary": "设速度、耐力、花样段位及集体项目。",
@@ -578,9 +580,11 @@
       "province": "安徽",
       "city": "芜湖",
       "venue": "梦溪科创走廊",
-      "startDate": "2026-10-17",
-      "endDate": "2026-10-18",
+      "startDate": "2026-10-16",
+      "endDate": "2026-10-19",
       "dateStatus": "confirmed",
+      "dateLabel": "2026年10月16—19日（赛会时间）",
+      "scheduleType": "event-period",
       "registrationDeadline": "2026-10-08",
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
       "summary": "设速度、耐力、花样段位及集体项目。",
@@ -607,18 +611,20 @@
       "province": "陕西",
       "city": "汉中市城固县",
       "venue": "陕飞职工体育中心",
-      "startDate": "2026-07-24",
-      "endDate": "2026-07-25",
+      "startDate": "2026-07-23",
+      "endDate": "2026-07-26",
       "dateStatus": "confirmed",
+      "dateLabel": "2026年7月23—26日（赛会时间）",
+      "scheduleType": "event-period",
       "registrationDeadline": null,
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
       "summary": "全国段位挑战赛陕西站，设速度与花样等段位项目。",
       "eligibility": "按主办方公布的年龄组、项目及段位要求参赛。",
-      "sourceName": "国家体育总局社会体育指导中心",
-      "sourceUrl": "https://www.sport.gov.cn/stzx/n5437/c29812756/content.html",
+      "sourceName": "中国毽球跳绳协会 / CJRU绳队友赛事平台",
+      "sourceUrl": "https://www.crsa.cc/#/pages/noteceDetail/index?id=614",
       "documents": [],
       "year": 2026,
-      "scheduleNote": "比赛已于7月24—25日举行。"
+      "scheduleNote": "7月23日报到，24—25日比赛，26日离会。"
     },
     {
       "id": "national-duanwei-jiangxi-2026",
@@ -928,14 +934,14 @@
       "province": "宁夏",
       "city": "银川",
       "venue": "宁夏体育职业学院",
-      "startDate": "2026-11-21",
-      "endDate": "2026-11-22",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-23",
       "dateStatus": "confirmed",
-      "dateLabel": "2026年11月21—22日",
-      "scheduleType": "competition",
+      "dateLabel": "2026年11月20—23日（赛会时间）",
+      "scheduleType": "event-period",
       "registrationDeadline": "2026-11-13",
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
-      "summary": "11月21—22日在宁夏体育职业学院比赛，11月13日24:00报名截止。",
+      "summary": "11月13日24:00报名截止，项目设置及分组见竞赛规程附件。",
       "eligibility": "设U6、U8、U10、U12、U15、青年、成年及特殊教育组；同一单位限报2支队伍，耐力四至九段和花样段位项目各限报1项。具体项目与参赛要求见规程及分组附件。",
       "sourceName": "中国毽球跳绳协会",
       "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/1023/712517.html",
@@ -1452,6 +1458,7 @@
       "startDate": "2026-11-13",
       "endDate": "2026-11-16",
       "dateStatus": "confirmed",
+      "dateLabel": "2026年11月13—16日（赛会时间）",
       "scheduleType": "event-period",
       "registrationDeadline": "2026-11-01",
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
@@ -1470,7 +1477,7 @@
         }
       ],
       "year": 2026,
-      "scheduleNote": "规程公布赛会时间11月13—16日，13日报到；逐日比赛安排待补充通知。报名11月1日24:00截止。"
+      "scheduleNote": "11月13日报到，14—15日比赛，16日离会。报名11月1日24:00截止。"
     },
     {
       "id": "hunan-championship-2026",
@@ -2051,7 +2058,8 @@
       "startDate": null,
       "endDate": null,
       "dateStatus": "planned",
-      "dateLabel": "计划2026年11月 · 具体日期待公布",
+      "dateLabel": "计划2026年11月 · 赛会时间待公布",
+      "scheduleType": "event-period",
       "registrationDeadline": null,
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
       "summary": "全国段位挑战赛年度总决赛。",
@@ -2078,7 +2086,7 @@
       ],
       "year": 2026,
       "status": "normal",
-      "scheduleNote": "具体比赛日及报名安排以总决赛补充通知为准。"
+      "scheduleNote": "具体赛会时间及报名安排以总决赛补充通知为准。"
     },
     {
       "id": "norway-open-2027",
@@ -2162,8 +2170,8 @@
       "scheduleNote": "7月1日抵达，2日比赛与工作坊，3日观摩世锦赛决赛，4日离会；具体日程以最终通知为准。"
     }
   ],
-  "reviewedAt": "2026-10-25T14:39:39Z",
-  "updateNote": "更新淮北三赛合一信息，确认国际公开赛暨大奖赛11月12—16日赛会时间、举办地点和报名期限。",
+  "reviewedAt": "2026-10-26T03:42:29Z",
+  "updateNote": "段位挑战赛统一按赛会时间展示，宁夏站为11月20—23日，同步更新月历及日历导出。",
   "coverageNote": "本次补核河北、宁夏段位赛最新通知。既往逐省核查中部分官方来源访问受限、部分规程未公开，京津冀邀请赛等线索仍待补核；检索未发现不等于没有赛事。",
   "sources": [
     {
@@ -2520,6 +2528,11 @@
       "name": "中国毽球跳绳协会 / CJRU绳队友赛事平台",
       "url": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30377",
       "category": "赛事通知"
+    },
+    {
+      "name": "中国毽球跳绳协会 / CJRU绳队友赛事平台",
+      "url": "https://www.crsa.cc/#/pages/noteceDetail/index?id=614",
+      "category": "赛事规程"
     }
   ],
   "schedule": {
