@@ -1,0 +1,99 @@
+{
+  "auditedAt": "2026-11-02T01:08:00Z",
+  "timezone": "Asia/Shanghai",
+  "base": {
+    "branch": "main",
+    "commit": "dac5e89343c573e077e67ee3d9df6d982b0cc95d",
+    "agentsSha": "cf2ea750674d67b72f3198d545157a72b2341b51",
+    "maintenanceSha": "f5808c7e974624c0da71f46b1cbdc134ebbbcc85",
+    "seedSha": "54b534b6da6ae03937f06d7daf95eff124e761f5",
+    "publicReviewedAt": "2026-10-26T03:42:29Z"
+  },
+  "scope": [
+    {
+      "source": "CJRU绳队友官方赛事目录",
+      "url": "https://loopdata.loopsports.cn/china_rope_match/list",
+      "checked": "读取按更新时间排序的赛事目录（total=180）并核对新增记录详情；复核近期全国联赛、国际公开赛、段位挑战赛及省级赛事。",
+      "result": "新增match_id=30381。官方海报确认福建省体育局主办的福建省青少年跳绳锦标赛暨福州市青少年跳绳精英赛于2026年11月14—15日在福州举行，已增量写入公开目录；赛事平台尚无规程正文。兴庆区中小学生赛为区级，按范围排除。"
+    },
+    {
+      "source": "CJRU绳队友官方公告目录",
+      "url": "https://loopdata.loopsports.cn/notice_culture/list",
+      "checked": "读取按发布时间排序的最新公告（total=648）并检索规程、改期、延期、取消和成绩公告。",
+      "result": "10月26日以后新增内容为安龙站成绩/完赛信息及非赛程事项，未发现需要覆盖现有赛期的补充通知。"
+    },
+    {
+      "source": "中国学生体育联合会通知目录",
+      "url": "https://www.sports.edu.cn/tapi/ssportweb/dataList.jsp?channelSerialNo=s35_a_k&fields=id%2CTitle%2CPublishDate&order=1&currentPage=1&pageNum=1000",
+      "checked": "完整读取本频道336条通知并检索跳绳相关条目。",
+      "result": "新增跳绳相关条目为全国校园跳绳教练员、裁判员培训班通知，不属于赛事目录；未发现全国学生赛事补充、改期或取消通知。"
+    },
+    {
+      "source": "国家体育总局及省级体育、教育主管单位增量检索",
+      "checked": "以2026-10-23逐省初筛为基线，将31个省级地区分四组检索2026/2027跳绳竞赛规程、通知、延期与取消，并复核体育总局社会体育指导中心公开结果。",
+      "result": "检索到黑龙江省公开赛、上海国际精英赛及安龙联赛完赛信息，均与现有目录一致；全国锦标赛仍仅能确认11月计划及浙江承办线索，未构造具体日期。克拉玛依民族跳绳联赛由少数民族体育组织主办，按范围明确排除。检索未发现不等于无赛事。"
+    },
+    {
+      "source": "IJRU赛事日历与2027世锦赛专页",
+      "urls": [
+        "https://ijru.sport/events",
+        "https://ijru.sport/2027-world-championships"
+      ],
+      "checked": "核对2027世锦赛赛事周、第二版规则补充文件及同期挪威公开赛和ISF说明。",
+      "result": "世锦赛赛事周仍为2027年6月27日至7月4日；现有目录已保存第二版规则补充文件。ISF专项补充文件仍标明后续发布，未发现可更新的独立规程。"
+    },
+    {
+      "source": "ISF跳绳专项页",
+      "url": "https://www.isfsports.org/sports/jump-rope",
+      "checked": "核对专项页及2027赛事日历公开信息。",
+      "result": "专项页未提供新的2027独立跳绳规程、名额或报名安排；保留现有planned记录。"
+    },
+    {
+      "source": "全国系列逐项复核",
+      "checked": "按maintenance.json逐项检查全国锦标赛、全国联赛分站/总决赛、段位挑战赛分站/总决赛、中国冠军赛、中国国际公开赛、全国学生赛事及青少年传统体育项目。",
+      "result": "除本轮新增福建省级赛事外，未取得可验证的新增全国赛事、重要改期、取消或规程修订；罗城站继续保持已取消状态。"
+    }
+  ],
+  "accessFailures": [
+    {
+      "source": "中国毽球跳绳协会官网",
+      "url": "http://www.chinajiansheng.com.cn/",
+      "error": "HTTP与HTTPS入口均返回503，无法遍历官网公告目录。",
+      "mitigation": "以CJRU公开赛事/公告接口、体育总局页面及省级官方结果交叉核对；不声称官网已完整遍历。"
+    },
+    {
+      "source": "部分公众号原文与未索引省级协会公告",
+      "error": "公开检索无法完整读取微信内历史目录，部分省级协会公告未被搜索引擎索引。",
+      "mitigation": "只记录实际可访问的官方目录和主管单位结果；未把未找到表述为无赛事。"
+    },
+    {
+      "source": "公开赛事与规程链接批量可达性检查",
+      "error": "共检查99个唯一官方来源/附件URL，77个返回成功或重定向；22个在本轮环境返回连接中断、403、429或超时，主要为中国毽球跳绳协会旧站、sports.cn附件、青少年宫平台和一个Google Drive手册。",
+      "mitigation": "新增福建赛事的绳队友页面可达；仓库测试已逐一验证全部已发布localPath均为非空真实格式文件。对暂时不可达的既有官方URL保留原出处和本地副本，不删除既有记录。"
+    }
+  ],
+  "pending": [
+    {
+      "item": "2026年福建省青少年跳绳锦标赛暨福州市青少年跳绳精英赛",
+      "url": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30381",
+      "note": "官方海报已确认日期、城市和主办单位；具体场馆、报到离会安排、完整参赛资格及竞赛规程待发布。"
+    },
+    {
+      "item": "好运山东·活力济宁 2026首届JUMP·X跳绳全能挑战赛",
+      "url": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30383",
+      "note": "绳队友目录仅显示济宁与平台日期，标题未明确省级赛事属性，且无规程、主办单位或场馆；暂不纳入。"
+    },
+    {
+      "item": "2026年全国跳绳锦标赛",
+      "url": "https://www.sport.gov.cn/n315/n20001395/c29008415/part/29101626.pdf",
+      "note": "年度推介资料仅列11月，黑龙江省体育局完赛报道提到11月底在浙江参赛；现有承办名录已列龙港，正式具体赛期仍待官方规程。"
+    }
+  ],
+  "publicChanges": [
+    {
+      "path": "src/data/seed.json",
+      "change": "新增福建省青少年跳绳锦标赛暨福州市青少年跳绳精英赛；写入官方海报确认的11月14—15日、福州、福建省体育局及平台报名期，未公布场馆和规程保持空白。"
+    }
+  ],
+  "conclusion": "发现并写入一项省级新增赛事，属于实质变化；更新公开reviewedAt并按发布流程验证。"
+}
