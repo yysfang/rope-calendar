@@ -25,8 +25,8 @@ export default function SeasonNavigation({today,value,year:filterYear,years,onSe
     const isCurrent=month===currentMonth;
     const highlighted=month===(value||currentMonth);
     return <button key={month} className={'season-month '+(highlighted?'is-highlighted ':'')+(crossesYear?'crosses-year':'')} onClick={()=>onSelect(month)} aria-label={`查看${year}年${number}月赛事`} aria-pressed={value===month} aria-current={isCurrent?'date':undefined}>
-     <span className="season-month-year">{index===0?`${year}年`:crossesYear?<span className="mobile-month-year">{year}年</span>:'\u00a0'}</span>
-     <strong>{crossesYear&&<span className="full-month-year">{year}年</span>}{number}月</strong>
+     <span className="season-month-year">{index===0||crossesYear?`${year}年`:'\u00a0'}</span>
+     <strong>{number}月</strong>
      <small>{isCurrent?`${Number(today.slice(5,7))}月${Number(today.slice(8,10))}日 · 今天`:'\u00a0'}</small>
     </button>;
    })}</div>

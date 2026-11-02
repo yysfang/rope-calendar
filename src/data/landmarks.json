@@ -847,6 +847,22 @@
     "generated": true
   },
   {
+    "key": "kyoto",
+    "place": "京都",
+    "title": "京都 · 金阁寺实景",
+    "kind": "city",
+    "matches": [
+      "境外|日本·京都"
+    ],
+    "src": "./landmarks/kyoto-kinkakuji.webp",
+    "mobileSrc": "./landmarks/kyoto-kinkakuji-mobile.webp",
+    "author": "Fbjon；横幅衍生：Inkey",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kyoto_prefecture_banner.jpg",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "position": "center"
+  },
+  {
     "key": "rope",
     "place": "线上 / 地点待公布",
     "title": "跳绳主题图（AI生成）",
