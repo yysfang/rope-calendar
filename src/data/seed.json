@@ -236,15 +236,24 @@
       "dateStatus": "confirmed",
       "dateLabel": "2026年11月12—16日（赛会时间）",
       "scheduleType": "event-period",
-      "registrationDeadline": "2026-10-30",
+      "registrationDeadline": "2026-11-05",
       "organizer": "中国毽球跳绳协会",
       "summary": "与全国跳绳联赛（安徽淮北站）三赛合一举办。",
-      "eligibility": "参赛资格与组别以国际公开赛专项规程为准。",
-      "sourceName": "中国毽球跳绳协会 / CJRU绳队友赛事平台",
-      "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30377",
-      "documents": [],
+      "eligibility": "各国家或地区的俱乐部、学校、协会等可组队报名；年龄分组及人数限制详见竞赛规程。",
+      "sourceName": "中国毽球跳绳协会",
+      "sourceUrl": "http://www.chinajiansheng.com.cn/hywc/2026/1026/712838.html",
+      "documents": [
+        {
+          "title": "2026年中国国际跳绳公开赛暨淮北市相山区国际跳绳大奖赛竞赛规程",
+          "url": "http://www.chinajiansheng.com.cn/hywc/2026/1026/712838.html",
+          "localPath": "/regulations/china-international-open-huaibei-2026-official-regulation.pdf",
+          "format": "PDF",
+          "kind": "regulation",
+          "note": "根据协会官方网页规程制作的可下载PDF，包含原文中的竞赛项目和奖金表图片。"
+        }
+      ],
       "year": 2026,
-      "scheduleNote": "11月12—16日为赛会时间；国际公开赛与大奖赛具体比赛日以组委会赛程为准。"
+      "scheduleNote": "11月12日报到，13—15日赛事活动，16日离会。报名于11月5日12:00截止。"
     },
     {
       "id": "fujian-games-industry-2026",
@@ -2190,10 +2199,84 @@
       "year": 2027,
       "status": "normal",
       "scheduleNote": "7月1日抵达，2日比赛与工作坊，3日观摩世锦赛决赛，4日离会；具体日程以最终通知为准。"
+    },
+    {
+      "id": "world-jump-rope-masters-games-2027",
+      "title": "2027年世界跳绳大师赛（World Jump Rope Masters Games）",
+      "level": "国际",
+      "system": "国际",
+      "province": "境外",
+      "city": "日本·京都",
+      "venue": "具体场馆待公布",
+      "startDate": "2027-06-05",
+      "endDate": "2027-06-06",
+      "dateStatus": "confirmed",
+      "registrationDeadline": null,
+      "organizer": "日本跳绳联盟（JJRU）",
+      "summary": "世界大师运动会关西大会期间举办的国际跳绳公开赛事。",
+      "eligibility": "参赛资格与报名办法待主办方公布。",
+      "sourceName": "日本跳绳联盟（JJRU）",
+      "sourceUrl": "https://jjru.sport/jjru/world-jump-rope-masters-games-2027-en/",
+      "documents": [],
+      "year": 2027,
+      "scheduleNote": "主办方公布比赛日为2027年6月5—6日，京都市具体场馆及报名安排待公布。"
+    },
+    {
+      "id": "zhejiang-student-rope-championship-2026",
+      "title": "浙江省第八届学生跳绳锦标赛",
+      "level": "省级",
+      "system": "教育",
+      "province": "浙江",
+      "city": "杭州·淳安",
+      "venue": "淳安县体育馆",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-23",
+      "dateStatus": "confirmed",
+      "dateLabel": "2026年11月20—23日（赛会时间）",
+      "scheduleType": "event-period",
+      "registrationDeadline": null,
+      "organizer": "浙江省教育厅、浙江省体育局",
+      "summary": "省级学生跳绳锦标赛，赛事平台公布11月20—23日在淳安举行。",
+      "eligibility": "参赛资格、组别和报名安排以正式竞赛规程为准。",
+      "sourceName": "浙江省学生跳绳锦标赛赛事平台",
+      "sourceUrl": "https://bsgl.tjydh.net/ggptts/indexx.asp",
+      "documents": [],
+      "year": 2026,
+      "scheduleNote": "赛事平台公布11月20—23日为赛会时间，具体比赛日及规程待发布。"
+    },
+    {
+      "id": "guangxi-youth-rope-championship-2026",
+      "title": "2026年首届广西青少年跳绳锦标赛",
+      "level": "省级",
+      "system": "体育",
+      "province": "广西",
+      "city": "南宁",
+      "venue": "广西体育高等专科学校相思湖校区",
+      "startDate": "2026-10-31",
+      "endDate": "2026-11-01",
+      "dateStatus": "confirmed",
+      "registrationDeadline": null,
+      "organizer": "广西社会体育运动发展中心",
+      "summary": "设公开组、校园组及计数、花样、交互绳等竞赛项目。",
+      "eligibility": "参赛年龄、组别与报名资格以竞赛规程为准。",
+      "sourceName": "绳队友赛事平台",
+      "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30363",
+      "documents": [
+        {
+          "title": "2026年首届广西青少年跳绳锦标赛竞赛规程（官方图片分页存档）",
+          "url": "https://static.loopsports.cn/chinaRope/img/admin/101_ejIKMqnegsbJ1ox.jpg",
+          "localPath": "/regulations/guangxi-youth-championship-2026-image-regulation.pdf",
+          "format": "PDF",
+          "kind": "regulation",
+          "note": "赛事平台公开的图片规程分页转存为PDF；请以主办方后续通知为准。"
+        }
+      ],
+      "year": 2026,
+      "scheduleNote": "10月31日至11月1日在广西体育高等专科学校相思湖校区举行。"
     }
   ],
-  "reviewedAt": "2026-11-02T01:08:00Z",
-  "updateNote": "新增福建省青少年跳绳锦标赛暨福州市青少年跳绳精英赛，比赛时间为11月14—15日，具体场馆和规程待公布。",
+  "reviewedAt": "2026-11-02T04:06:41Z",
+  "updateNote": "补充淮北国际公开赛正式规程及11月5日报名截止；新增浙江省学生跳绳锦标赛、广西青少年锦标赛和2027年世界跳绳大师赛。",
   "coverageNote": "本次补核河北、宁夏段位赛最新通知。既往逐省核查中部分官方来源访问受限、部分规程未公开，京津冀邀请赛等线索仍待补核；检索未发现不等于没有赛事。",
   "sources": [
     {
