@@ -279,6 +279,28 @@
       "scheduleNote": "赛会时间11月4—9日；正式比赛日、报到与单项报名安排以补充通知为准。"
     },
     {
+      "id": "fujian-youth-championship-2026",
+      "title": "2026年福建省青少年跳绳锦标赛暨福州市青少年跳绳精英赛",
+      "level": "省级",
+      "system": "体育",
+      "province": "福建",
+      "city": "福州",
+      "venue": "",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "dateStatus": "confirmed",
+      "registrationDeadline": "2026-11-08",
+      "registrationStartDate": "2026-11-01",
+      "organizer": "福建省体育局",
+      "summary": "福建省青少年跳绳锦标赛与福州市青少年跳绳精英赛同期举行。",
+      "eligibility": "",
+      "sourceName": "中国毽球跳绳协会 / 绳队友赛事平台",
+      "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30381",
+      "documents": [],
+      "year": 2026,
+      "scheduleNote": "官方赛事海报公布11月14—15日在福州举行；具体场馆、报到离会安排及竞赛规程待公布。"
+    },
+    {
       "id": "national-university-championship-2026",
       "title": "学体联2026年全国大学生跳绳锦标赛",
       "level": "全国",
@@ -2170,8 +2192,8 @@
       "scheduleNote": "7月1日抵达，2日比赛与工作坊，3日观摩世锦赛决赛，4日离会；具体日程以最终通知为准。"
     }
   ],
-  "reviewedAt": "2026-10-26T03:42:29Z",
-  "updateNote": "段位挑战赛统一按赛会时间展示，宁夏站为11月20—23日，同步更新月历及日历导出。",
+  "reviewedAt": "2026-11-02T01:08:00Z",
+  "updateNote": "新增福建省青少年跳绳锦标赛暨福州市青少年跳绳精英赛，比赛时间为11月14—15日，具体场馆和规程待公布。",
   "coverageNote": "本次补核河北、宁夏段位赛最新通知。既往逐省核查中部分官方来源访问受限、部分规程未公开，京津冀邀请赛等线索仍待补核；检索未发现不等于没有赛事。",
   "sources": [
     {
