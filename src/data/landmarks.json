@@ -849,17 +849,17 @@
   {
     "key": "kyoto",
     "place": "京都",
-    "title": "京都 · 金阁寺实景",
+    "title": "京都 · 鸭川夜樱实景",
     "kind": "city",
     "matches": [
       "境外|日本·京都"
     ],
-    "src": "./landmarks/kyoto-kinkakuji.webp",
-    "mobileSrc": "./landmarks/kyoto-kinkakuji-mobile.webp",
-    "author": "Fbjon；横幅衍生：Inkey",
-    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kyoto_prefecture_banner.jpg",
-    "license": "CC BY-SA 2.0",
-    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "src": "./landmarks/kyoto-kamo-night.webp",
+    "mobileSrc": "./landmarks/kyoto-kamo-night-mobile.webp",
+    "author": "Yiannis Theologos Michellis",
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nighttime_view_of_blooming_sakura_along_the_Kamo_River_in_Pontocho,_Kyoto,_Japan_20170409105747_(34380967756).jpg",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
     "position": "center"
   },
   {
