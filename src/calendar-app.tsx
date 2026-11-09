@@ -40,7 +40,7 @@ export default function CalendarApp({initialCatalog}:{initialCatalog:Catalog}) {
  const visible=filterEvents(candidates,filters,today);
  const provinces=[...new Set(catalog.events.map(event=>event.province))].filter(Boolean).sort((a,b)=>a.localeCompare(b,'zh'));
  const years=[...new Set(catalog.events.flatMap(event=>[event.startDate?.slice(0,4)||String(event.year||''),event.endDate?.slice(0,4)||'']))].filter(Boolean).sort();
- const groups=groupEventsForBrowsing(visible,filters.month);
+ const groups=groupEventsForBrowsing(visible,filters.month,today);
  const docs=visible.flatMap(event=>event.documents.map((document,index)=>({event,document,index})));
  const reviewed=new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',month:'numeric',day:'numeric'}).format(new Date(catalog.reviewedAt));
  const currentYear=Number(today.slice(0,4));

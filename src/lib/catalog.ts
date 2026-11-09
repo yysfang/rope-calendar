@@ -63,8 +63,10 @@ export function eventStatus(event: RopeEvent, today = todayShanghai()): {label:s
   if (event.status === 'cancelled') return {label:'已取消',tone:'gray'};
   if (event.status === 'postponed') return {label:'已延期',tone:'amber'};
   if (event.dateStatus === 'planned' || !event.startDate) return {label:'赛期待定',tone:'amber'};
+  if (event.competitionDates?.includes(today)) return {label:'进行中',tone:'green'};
+  if (event.competitionDates?.every(date => date < today)) return {label:'已结束',tone:'gray'};
   if ((event.endDate || event.startDate) < today) return {label:'已结束',tone:'gray'};
-  if (event.startDate <= today) return {label:'进行中',tone:'green'};
+  if (!event.competitionDates && event.startDate <= today) return {label:'进行中',tone:'green'};
   if (event.registrationStartDate && event.registrationStartDate > today) return {label:'报名未开始',tone:'blue'};
   if (event.registrationDeadline && event.registrationDeadline < today) return {label:'报名已截止',tone:'gray'};
   if (event.registrationDeadline) return {label:'报名中',tone:'green'};
@@ -101,12 +103,13 @@ export function filterEvents(events: RopeEvent[], filters: Filters, today = toda
     return filters.timeline === 'past' ? b.startDate.localeCompare(a.startDate) : a.startDate.localeCompare(b.startDate);
   });
 }
-export function groupEventsForBrowsing(events:RopeEvent[], displayMonth?:string) {
+export function groupEventsForBrowsing(events:RopeEvent[], displayMonth?:string, today=todayShanghai()) {
   return eventLevelOrder.map(level=>{
     const records=events.filter(event=>event.level===level);
     const months=new Map<string,RopeEvent[]>();
     for(const event of records){
-      const monthKey=displayMonth||event.startDate?.slice(0,7);
+      const nextRaceDay=event.competitionDates?.find(date => date >= today) || event.competitionDates?.at(-1);
+      const monthKey=displayMonth||(nextRaceDay || event.startDate)?.slice(0,7);
       const month=event.status==='cancelled'?'已取消':monthKey?`${monthKey.slice(0,4)}年 ${Number(monthKey.slice(5,7))}月`:'赛期待定';
       const label=level==='省级'?`${event.province} · ${month}`:month;
       const group=months.get(label)||[];group.push(event);months.set(label,group);

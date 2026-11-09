@@ -1,0 +1,88 @@
+{
+  "auditedAt": "2026-11-09T03:17:41Z",
+  "timezone": "Asia/Shanghai",
+  "baseCommit": "fc2836ef0ad03de2ab5e68db8ae5876dd91bb0eb",
+  "scope": [
+    {
+      "source": "中国毽球跳绳协会公告及竞赛栏目",
+      "urls": [
+        "http://www.chinajiansheng.com.cn/xhjs/",
+        "http://www.chinajiansheng.com.cn/hywc/"
+      ],
+      "checked": "读取现行列表和近期跳绳通知，复核段位赛、全国联赛、国际公开赛及锦标赛。",
+      "result": "公告页最新可见条目仍为10月26日；未找到总决赛专项补充通知或全国锦标赛正式赛期。"
+    },
+    {
+      "source": "绳队友官方赛事及公告目录",
+      "urls": [
+        "https://loopdata.loopsports.cn/china_rope_match/list",
+        "https://loopdata.loopsports.cn/notice_culture/list"
+      ],
+      "checked": "赛事目录182条（上周180），公告648条（上周648）；读取新增赛事详情、日期及规程字段。",
+      "result": "新总决赛记录公布东营11月27—30日赛会时间，平台未给出场馆或专项规程；新增兴庆区中小学生赛为区级，不收录。公告目录没有新的段位赛改期取消。"
+    },
+    {
+      "source": "中国学生体育联合会",
+      "urls": [
+        "https://www.sports.edu.cn/tapi/ssportweb/dataList.jsp?channelSerialNo=s35_a_k&fields=id%2CTitle%2CPublishDate&order=1&currentPage=1&pageNum=1000",
+        "https://www.sports.edu.cn/tapi/ssportweb/dataList.jsp?channelSerialNo=s35_b_b_a_d&fields=id%2CTitle%2CPublishDate&order=1&currentPage=1&pageNum=1000"
+      ],
+      "checked": "通知341条、竞赛计划298条，检索跳绳项目及11月新增内容。",
+      "result": "上周后新增通知和计划不涉及跳绳赛事，现有大学生、中学生记录无可确认修改。"
+    },
+    {
+      "source": "中国香港跳绳总会",
+      "urls": [
+        "https://www.hkropeskipping.org/",
+        "https://www.hkropeskipping.org/all-age",
+        "https://www.hkropeskipping.org/_files/ugd/d025ad_8783297b581548189961c3bc972dac3b.pdf"
+      ],
+      "checked": "核对全港分龄赛官方章程和非连续赛日；下载并校验8页PDF。",
+      "result": "补录全港级赛事，10月4日及11月1、8、22日分四天举行；11月22日赛日尚未举行，地点龙琛路体育馆。"
+    },
+    {
+      "source": "IJRU、ERSO、AJRU、新加坡跳绳联合会及主办方",
+      "urls": [
+        "https://ijru.sport/events",
+        "https://ijru.sport/2027-world-championships",
+        "https://erso.info/competitions/",
+        "https://www.ajru.sport/ac2026/",
+        "https://www.jrfs.org.sg/"
+      ],
+      "checked": "核对已录的泰国、韩国、世锦赛及同期挪威和ISF、新加坡资料，并搜索新国际赛。",
+      "result": "未见需覆盖现有日期或规程的新正式文件；IJRU泰国赛事周与泰国主办方手册的正式比赛日仍按现有记录分开标明。"
+    },
+    {
+      "source": "体育总局与省级体育、教育来源",
+      "urls": [
+        "https://www.sport.gov.cn/stzx/",
+        "https://tyj.hlj.gov.cn/",
+        "https://jsstyj.jiangsu.gov.cn/",
+        "https://ynxstx.com/"
+      ],
+      "checked": "按地区组合检索本周省级竞赛、综合运动会跳绳项目及全国锦标赛后续公告，复核既有待办。",
+      "result": "黑龙江报道仍仅称全国锦标赛11月底在浙江；未取得正式日期。云南校园跳绳总决赛及长三角总决赛仍缺可下载的一手专项规程。省级微信公众号未索引内容无法视为已穷尽。"
+    }
+  ],
+  "publicChanges": [
+    {
+      "event": "2026年全国跳绳段位挑战赛总决赛",
+      "change": "按绳队友官方赛事平台新增东营11月27—30日赛会时间；正式比赛日、场馆和报名安排保持待通知，不把平台会期当作单列比赛日。"
+    },
+    {
+      "event": "2026年全港分龄跳绳比赛",
+      "change": "新增中国香港跳绳总会确认的非连续赛日与两个体育馆，并保存可下载官方PDF章程。"
+    },
+    {
+      "event": "非连续赛日状态与分组",
+      "change": "赛日之间不再显示进行中；即将举行列表按下一赛日所在月份分组，日历仍只显示实际赛日。"
+    }
+  ],
+  "pending": [
+    "全国跳绳段位挑战赛总决赛专项补充通知、准确比赛日及场馆。",
+    "全国跳绳锦标赛浙江龙港的正式规程与具体赛期。",
+    "云南校园跳绳联赛总决赛及长三角联赛总决赛的一手专项规程。",
+    "省级协会和教育厅公众号未被公开检索收录的赛事通知。"
+  ],
+  "limitations": "网页目录和赛事平台可能不同步；本轮省级来源为增量检索，未找到不等于无赛事。"
+}

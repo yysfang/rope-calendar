@@ -16,6 +16,13 @@ test('unknown deadlines are not presented as open registration',()=>{
 test('a published future registration window is not marked as open early',()=>{
  assert.equal(eventStatus({...event,registrationDeadline:'2027-03-15',registrationStartDate:'2026-12-15'},'2026-10-22').label,'报名未开始');
 });
+test('a break between non-consecutive race days is not shown as in progress',()=>{
+ const series={...event,startDate:'2026-10-04',endDate:'2026-11-22',competitionDates:['2026-10-04','2026-11-01','2026-11-08','2026-11-22']};
+ assert.equal(eventStatus(series,'2026-11-08').label,'进行中');
+ assert.equal(eventStatus(series,'2026-11-09').label,'报名已截止');
+ assert.equal(eventStatus(series,'2026-11-23').label,'已结束');
+ assert.equal(groupEventsForBrowsing([series],undefined,'2026-11-09')[0].months[0].label,'2026年 11月');
+});
 test('filters combine event level and location and search organizer',()=>{
  const education={...event,id:'education',system:'教育',level:'省级',province:'重庆',city:'重庆',organizer:'重庆市教育委员会'};
  assert.deepEqual(filterEvents([event,education],{level:'省级',province:'重庆',query:'教育委员会',timeline:'upcoming'},'2026-10-22').map(e=>e.id),['education']);

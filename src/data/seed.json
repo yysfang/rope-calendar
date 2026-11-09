@@ -2086,17 +2086,17 @@
       "province": "山东",
       "city": "东营",
       "venue": "具体场馆待公布",
-      "startDate": null,
-      "endDate": null,
-      "dateStatus": "planned",
-      "dateLabel": "计划2026年11月 · 赛会时间待公布",
+      "startDate": "2026-11-27",
+      "endDate": "2026-11-30",
+      "dateStatus": "confirmed",
+      "dateLabel": "2026年11月27—30日（赛会时间）",
       "scheduleType": "event-period",
       "registrationDeadline": null,
       "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
       "summary": "全国段位挑战赛年度总决赛。",
       "eligibility": "按总规程，满足任一条件可晋级：分区赛各项目各组别前10名；年度总积分达200分及以上。最终报名要求以总决赛补充通知为准。",
-      "sourceName": "中国毽球跳绳协会 / 绳队友官方赛历",
-      "sourceUrl": "https://www.crsa.cc/#/pages/noteceDetail/index?id=616",
+      "sourceName": "绳队友官方赛事平台",
+      "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30386",
       "documents": [
         {
           "title": "2026年全国跳绳段位挑战赛总规程（官方网页存档）",
@@ -2117,7 +2117,7 @@
       ],
       "year": 2026,
       "status": "normal",
-      "scheduleNote": "具体赛会时间及报名安排以总决赛补充通知为准。"
+      "scheduleNote": "绳队友赛事平台公布11月27—30日赛会时间，地点为山东东营；具体比赛日、场馆及报名安排以总决赛后续通知为准。"
     },
     {
       "id": "norway-open-2027",
@@ -2273,10 +2273,47 @@
       ],
       "year": 2026,
       "scheduleNote": "10月31日至11月1日在广西体育高等专科学校相思湖校区举行。"
+    },
+    {
+      "id": "hongkong-all-age-2026",
+      "title": "2026年全港分龄跳绳比赛",
+      "level": "省级",
+      "system": "体育",
+      "province": "香港",
+      "city": "香港",
+      "venue": "龙琛路体育馆、荃湾西约体育馆（按赛日）",
+      "startDate": "2026-10-04",
+      "endDate": "2026-11-22",
+      "dateStatus": "confirmed",
+      "dateLabel": "2026年10月4日、11月1日、8日、22日",
+      "scheduleType": "competition",
+      "competitionDates": [
+        "2026-10-04",
+        "2026-11-01",
+        "2026-11-08",
+        "2026-11-22"
+      ],
+      "registrationDeadline": "2026-09-12",
+      "organizer": "中国香港跳绳总会",
+      "summary": "按年龄分组举行个人及团体赛，11月22日为18岁或以上组及挑战组个人项目。",
+      "eligibility": "参赛者须持有效的中国香港跳绳总会会员资格；具体年龄、代表队及挑战组资格见章程。",
+      "sourceName": "中国香港跳绳总会",
+      "sourceUrl": "https://www.hkropeskipping.org/all-age",
+      "documents": [
+        {
+          "title": "2026年全港分龄跳绳比赛章程",
+          "url": "https://www.hkropeskipping.org/_files/ugd/d025ad_8783297b581548189961c3bc972dac3b.pdf",
+          "localPath": "/regulations/hk-all-age-2026-regulations.pdf",
+          "format": "PDF",
+          "kind": "regulation"
+        }
+      ],
+      "year": 2026,
+      "scheduleNote": "赛日不连续：10月4日团体项目在龙琛路体育馆；11月1日11—17岁个人项目在龙琛路体育馆；11月8日10岁及以下个人项目在荃湾西约体育馆；11月22日18岁或以上及挑战组个人项目在龙琛路体育馆。"
     }
   ],
-  "reviewedAt": "2026-11-02T04:06:41Z",
-  "updateNote": "补充淮北国际公开赛正式规程及11月5日报名截止；新增浙江省学生跳绳锦标赛、广西青少年锦标赛和2027年世界跳绳大师赛。",
+  "reviewedAt": "2026-11-09T03:16:47Z",
+  "updateNote": "确认全国跳绳段位挑战赛总决赛11月27—30日在东营举行；补充全港分龄跳绳比赛11月22日赛日及可下载章程。",
   "coverageNote": "本次补核河北、宁夏段位赛最新通知。既往逐省核查中部分官方来源访问受限、部分规程未公开，京津冀邀请赛等线索仍待补核；检索未发现不等于没有赛事。",
   "sources": [
     {
