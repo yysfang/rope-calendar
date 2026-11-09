@@ -74,7 +74,15 @@ jobs:
           fi
           git -C "$publish_dir" push origin HEAD:gh-pages
           published_sha="$(git -C "$publish_dir" rev-parse HEAD)"
-          gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" >/dev/null
+          page_status=''
+          for attempt in $(seq 1 12); do
+            page_status="$(gh api "repos/$GITHUB_REPOSITORY/pages/deployments/$published_sha" --jq '.status' 2>/dev/null || true)"
+            [ -n "$page_status" ] && break
+            sleep 5
+          done
+          if [ -z "$page_status" ]; then
+            gh api -X POST "repos/$GITHUB_REPOSITORY/pages/builds" >/dev/null
+          fi
           for attempt in $(seq 1 60); do
             page_status="$(gh api "repos/$GITHUB_REPOSITORY/pages/deployments/$published_sha" --jq '.status' 2>/dev/null || true)"
             case "$page_status" in
