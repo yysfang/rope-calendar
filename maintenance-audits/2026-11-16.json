@@ -1,0 +1,74 @@
+{
+  "auditedAt": "2026-11-16T14:32:31Z",
+  "timezone": "Asia/Shanghai",
+  "scope": "2026年11月16日每周增量核查；只维护GitHub站",
+  "officialSources": [
+    {
+      "name": "中国毽球跳绳协会公告/竞赛栏目",
+      "urls": [
+        "http://www.chinajiansheng.com.cn/xhjs/",
+        "http://www.chinajiansheng.com.cn/hywc/"
+      ],
+      "result": "最新可见公告仍为10月26日；本轮未找到新的全国段位赛改期、锦标赛正式规程或联赛总决赛规程。"
+    },
+    {
+      "name": "中国毽球跳绳协会赛事平台",
+      "urls": [
+        "https://loopdata.loopsports.cn/china_rope_match/list",
+        "https://loopdata.loopsports.cn/notice_culture/list"
+      ],
+      "result": "逐页读取188条赛事、649条公告；核查新增赛事30390、30392、30393、30394、30395的详情及规程字段。新公告683为淮北赛后报道。"
+    },
+    {
+      "name": "中国学生体育联合会",
+      "urls": [
+        "https://www.sports.edu.cn/tapi/ssportweb/dataList.jsp?channelSerialNo=s35_a_k&fields=id%2CTitle%2CPublishDate&order=1&currentPage=1&pageNum=1000",
+        "https://www.sports.edu.cn/tapi/ssportweb/dataList.jsp?channelSerialNo=s35_b_b_a_d&fields=id%2CTitle%2CPublishDate&order=1&currentPage=1&pageNum=1000"
+      ],
+      "result": "通知348条、计划334条；11月9日至16日新增内容未发现跳绳专项变更。"
+    },
+    {
+      "name": "IJRU、香港总会、新加坡联合会",
+      "urls": [
+        "https://ijru.sport/events",
+        "https://ijru.sport/2027-world-championships",
+        "https://www.hkropeskipping.org/%E8%B3%BD%E4%BA%8B%E6%99%82%E9%96%93%E8%A1%A8",
+        "https://www.jrfs.org.sg/"
+      ],
+      "result": "香港总会公布2027年全港精英赛5个非连续赛日；IJRU世锦赛及同期赛事、新加坡公开赛没有发现需修改现有记录的正式文件。ERSO页面访问超时。"
+    },
+    {
+      "name": "省级体育和教育公开资料",
+      "urls": [
+        "https://www.scsdtx.cn/",
+        "https://2026jxsyh.pxnews.cn/",
+        "https://www.sport.gov.cn/stzx/n5434/c29392424/content.html"
+      ],
+      "result": "结合省级站点与官方赛事平台检索新候选；部分协会公众号未公开索引，不视为已穷尽。"
+    }
+  ],
+  "publicChanges": [
+    {
+      "event": "2026年湖南省“湘绳超”大中小学生城市联赛总决赛",
+      "change": "按完整官方规程收录12月11—13日赛会时间、湖南信息学院及可阅读/保存的规程网页存档。"
+    },
+    {
+      "event": "全港精英跳绳比赛2027暨中国香港代表队选拔赛",
+      "change": "按中国香港跳绳总会时间表收录1月10、17、24、31日及2月20日单独赛日；规程与场馆待公布。"
+    },
+    {
+      "event": "安徽宿州、安徽池州、四川遂宁、江西南昌四场",
+      "change": "补录官方赛事平台线索；未有完整正式规程，日期仅作为暂列或月份信息，保持赛期待定、不进入月历或导出。"
+    }
+  ],
+  "pending": [
+    "安徽宿州冠军赛完整规程与正式赛期；通知正文仅确认12月，平台暂列12月12—14日。",
+    "池州华东区邀请赛完整规程、主办方公告与正式赛会时间；平台暂列11月27—30日。",
+    "四川“贡嘎杯”学生跳绳比赛省级主办方公告与规程；平台暂列11月19—22日，城市选为遂宁。已另查到遂宁市9月的市级赛事，不与本条合并。",
+    "江西青少年花样跳绳锦标赛完整规程与场馆；平台暂列11月27—29日。",
+    "香港总会全港精英赛2027章程、场馆与报名期限。",
+    "全国锦标赛龙港正式日期、全国段位赛总决赛后续通知及全国联赛总决赛规程。",
+    "省级协会微信公众号未索引的公告，ERSO本轮超时。"
+  ],
+  "limitations": "平台字段可能是报名系统计划，不可直接当作正式赛日；省级公开站点仅增量核查，未发现不等于无赛事。"
+}
