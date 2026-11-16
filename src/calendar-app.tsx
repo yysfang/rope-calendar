@@ -103,5 +103,5 @@ function EventLocation({event}:{event:RopeEvent}) {
  return <div className="row-location"><span className="row-fact-label"><MapPin size={14}/>地点</span><div><strong>{place||'地点待公布'}</strong>{event.venue&&<small>{event.venue}</small>}</div></div>;
 }
 function EventDate({event}:{event:RopeEvent}) {
- return <div className="row-time"><span className="row-fact-label"><CalendarDays size={14}/>时间</span><div><strong>{dateLabel(event)}</strong>{event.dateStatus==='planned'&&event.startDate&&event.status!=='cancelled'&&!/暂定|计划|待定/.test(dateLabel(event))&&<small className="tentative-date">暂定</small>}{event.registrationDeadline&&event.status!=='cancelled'&&<small>报名截止 {shortDate(event.registrationDeadline)}</small>}</div></div>;
+ return <div className="row-time"><span className="row-fact-label"><CalendarDays size={14}/>时间</span><div><strong>{dateLabel(event)}</strong>{event.dateStatus==='planned'&&event.startDate&&event.status!=='cancelled'&&event.status!=='postponed'&&!/暂定|计划|待定/.test(dateLabel(event))&&<small className="tentative-date">暂定</small>}{event.registrationDeadline&&event.status!=='cancelled'&&event.status!=='postponed'&&<small>报名截止 {shortDate(event.registrationDeadline)}</small>}</div></div>;
 }

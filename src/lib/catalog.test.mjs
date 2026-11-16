@@ -59,6 +59,14 @@ test('cancelled stations are excluded from upcoming races and calendar export',(
  assert.doesNotMatch(buildICS([cancelled]),/BEGIN:VEVENT/);
 });
 
+test('postponed stations leave upcoming races and calendar export but remain in all records',()=>{
+ const postponed={...event,id:'postponed-station',status:'postponed',dateStatus:'planned'};
+ assert.equal(eventStatus(postponed).label,'已延期');
+ assert.equal(filterEvents([postponed],{timeline:'upcoming'},'2026-11-07').length,0);
+ assert.equal(filterEvents([postponed],{timeline:'all'},'2026-11-07').length,1);
+ assert.doesNotMatch(buildICS([postponed]),/BEGIN:VEVENT/);
+});
+
 
 test('ranking challenge events can be found by the common duanwei race name',()=>{
  const station={...event,title:'2026年全国跳绳段位挑战赛（海南站）'};

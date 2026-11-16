@@ -77,7 +77,7 @@ export function filterEvents(events: RopeEvent[], filters: Filters, today = toda
   const q = searchable(filters.query || '');
   return events.filter(event => {
     const past = !!event.startDate && (event.endDate || event.startDate) < today;
-    if (filters.timeline === 'upcoming' && (past || event.status === 'cancelled')) return false;
+    if (filters.timeline === 'upcoming' && (past || event.status === 'cancelled' || event.status === 'postponed')) return false;
     if (filters.timeline === 'past' && !past) return false;
     if (filters.level && event.level !== filters.level) return false;
     if (filters.province && event.province !== filters.province) return false;
