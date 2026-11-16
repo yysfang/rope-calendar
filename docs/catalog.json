@@ -888,7 +888,7 @@
         "level": "全国",
         "system": "体育",
         "province": "浙江",
-        "city": "温州市龙港市",
+        "city": "绍兴市上虞区",
         "venue": "待公布",
         "startDate": null,
         "endDate": null,
@@ -896,13 +896,13 @@
         "dateLabel": "2026年 · 赛期待公布",
         "registrationDeadline": null,
         "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
-        "summary": "协会首批承办名录列龙港市社会事业局承办；社体中心年度推介书计划11月举办。正式赛期和单项规程待公布。",
+        "summary": "协会第四批承办单位公示列绍兴市上虞区教育体育局、绍兴上虞文旅集团有限公司；具体赛期与规程待公布。",
         "eligibility": "正式规程及参赛要求待公布。",
-        "sourceName": "中国毽球跳绳协会",
-        "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/0312/691490.html",
+        "sourceName": "中国毽球跳绳协会（11月16日微信公众号承办公示）",
+        "sourceUrl": "https://www.crsa.cc/",
         "documents": [],
         "year": 2026,
-        "scheduleNote": "仅有承办名录及年度计划；不将计划月份换算为比赛日期。"
+        "scheduleNote": "第四批承办公示列上虞；具体赛期和场馆待正式通知。"
       },
       {
         "id": "national-league-luocheng-2026",
@@ -1489,27 +1489,28 @@
         "venue": "江阴飞马水城文体馆",
         "startDate": "2026-11-13",
         "endDate": "2026-11-16",
-        "dateStatus": "confirmed",
-        "dateLabel": "2026年11月13—16日（赛会时间）",
+        "dateStatus": "planned",
+        "dateLabel": "原定2026年11月13—16日，现已延期",
         "scheduleType": "event-period",
-        "registrationDeadline": "2026-11-01",
+        "registrationDeadline": null,
         "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
-        "summary": "设计数、花样及集体项目，按赛事总规程与本站通知参赛。",
+        "summary": "江苏站已延期，新的赛会时间待公布。",
         "eligibility": "按竞赛规程的年龄、资格及组队要求参赛。",
-        "sourceName": "中国毽球跳绳协会 / 绳队友赛事平台",
-        "sourceUrl": "https://www.crsa.cc/#/pages/noteceDetail/index?id=672",
+        "sourceName": "中国毽球跳绳协会（11月11日微信公众号延期通知）",
+        "sourceUrl": "https://www.crsa.cc/",
         "documents": [
           {
-            "title": "2026年全国跳绳段位挑战赛（江苏站）竞赛规程（官方网页存档）",
+            "title": "2026年全国跳绳段位挑战赛（江苏站）原竞赛规程（赛期已延期）",
             "url": "https://www.crsa.cc/#/pages/noteceDetail/index?id=672",
             "localPath": "/regulations/national-duanwei-jiangsu-2026-regulations.html",
             "format": "HTML",
             "kind": "regulation",
-            "note": "官方完整网页规程存档，非原始PDF。"
+            "note": "原规程的赛会时间已失效；请以协会后续通知为准。"
           }
         ],
         "year": 2026,
-        "scheduleNote": "11月13日报到，14—15日比赛，16日离会。报名11月1日24:00截止。"
+        "status": "postponed",
+        "scheduleNote": "协会11月9日通知：原定11月13—16日在江阴飞马水城举行的江苏站延期，新时间另行通知；原规程中的赛期已失效。"
       },
       {
         "id": "hunan-championship-2026",
@@ -2462,8 +2463,8 @@
         "scheduleNote": "非连续赛日：1月10日女子组，17日男子组，24日公开组，31日个人赛；2月20日表演杯及DDCHK。场馆与规程待总会公布。"
       }
     ],
-    "reviewedAt": "2026-11-16T14:32:31Z",
-    "updateNote": "新增湖南“湘绳超”总决赛与2027年全港精英赛；补充安徽池州、宿州、四川“贡嘎杯”和江西青少年赛的赛事线索，待确认赛期均已标明。",
+    "reviewedAt": "2026-11-16T14:51:56Z",
+    "updateNote": "江苏段位挑战赛延期，新赛期待公布；全国跳绳锦标赛承办公示更新为浙江上虞。新增湖南“湘绳超”总决赛与2027年全港精英赛，另补充四场待核赛事。",
     "coverageNote": "本次补核河北、宁夏段位赛最新通知。既往逐省核查中部分官方来源访问受限、部分规程未公开，京津冀邀请赛等线索仍待补核；检索未发现不等于没有赛事。",
     "sources": [
       {
