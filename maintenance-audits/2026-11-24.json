@@ -1,0 +1,74 @@
+{
+  "auditedAt": "2026-11-23T16:28:26Z",
+  "timezone": "Asia/Shanghai",
+  "baseCommit": "64e65a61643a8fd05cf8da84b06ac9dd45dc037c",
+  "scope": [
+    {
+      "source": "中国毽球跳绳协会官网与公众号",
+      "urls": [
+        "http://www.chinajiansheng.com.cn/xhjs/",
+        "http://www.chinajiansheng.com.cn/hywc/",
+        "https://mp.weixin.qq.com/s?__biz=MjM5MDQwMTgxNQ%3D%3D&mid=2649262581&idx=1&sn=6307dc3b8b69f87198d32d1a2abe2250",
+        "https://mp.weixin.qq.com/s?__biz=Mzg5NDc2NjU5OA%3D%3D&mid=2247486632&idx=3&sn=9f75dd9cb13d10913162fb741fe72ce8"
+      ],
+      "result": "网页协会公告未同步本周专项变更。微信原文确认东营专项规程及11月19日增加三项的补充通知、上虞承办公示直链。11月12日发布、13日修改的运营方规程内容曾写11月20日24:00；当前报名平台显示11月25日00:00，公开页面注明系统时间。原规程二维码附件浏览器授权未获批准，已保留可从微信打开的专项规程和站内系列总规程。"
+    },
+    {
+      "source": "绳队友官方赛事与公告",
+      "urls": [
+        "https://loopdata.loopsports.cn/china_rope_match/list",
+        "https://loopdata.loopsports.cn/notice_culture/list"
+      ],
+      "result": "分页复查189条赛事，公告总数650，新增公告684为淮北成绩。核对东营、宁夏、广西、上海、江西、池州、宿州、湖南与花都详情。江西两条为同场，使用新目录记录。上海财经大学校内赛排除。池州报名截止更新至11月24日中午。"
+    },
+    {
+      "source": "中国学生体育联合会及国家体育总局社体中心",
+      "urls": [
+        "https://www.sports.edu.cn/tapi/ssportweb/dataList.jsp?channelSerialNo=s35_a_k",
+        "https://www.sports.edu.cn/tapi/ssportweb/dataList.jsp?channelSerialNo=s35_b_b_a_d",
+        "https://www.sport.gov.cn/stzx/n5437/index.html"
+      ],
+      "result": "读取366条通知、338条计划，11月16日后未发现跳绳专项变化。社体中心发布海南站收官，现有赛期一致。江苏延期延续，未找到新正式日期。"
+    },
+    {
+      "source": "国际联合会及主办方",
+      "urls": [
+        "https://ijru.sport/events",
+        "https://ijru.sport/2027-world-championships",
+        "https://isfsports.org/sports/jump-rope",
+        "https://www.ajru.sport/ac2026/",
+        "https://erso.info/competitions/",
+        "https://www.jrfs.org.sg/",
+        "https://www.hkropeskipping.org/elite-championships"
+      ],
+      "result": "复核泰国、新加坡、韩国、IJRU世锦赛和同期挪威公开赛、ISF；世锦赛补充规则仍为V2，ISF单项补充尚未公布。香港新增个人团体章程和规则附录，竞赛地点已落地，12月10日11时截止个人及团体报名。ERSO只见2027表演赛承办意向，AJRU未见新增可核实赛期。"
+    },
+    {
+      "source": "省级体育与教育增量核对",
+      "urls": [
+        "https://www.sspu.edu.cn/2026/1123/c2964a173919/page.htm",
+        "https://tidenews.com.cn/tmh_news.html?id=6b0272304f4bff00010972cc",
+        "https://www.huadu.gov.cn/zfxxgkml/gzshdqjyj/content/post_11092015.html",
+        "https://www.cdpf.org.cn/xwzx/ywdt1/2fb79bb122cc46afb9c6ed7c7f0bce7d.htm",
+        "https://www.shyp.gov.cn/shypq/xwzx-bmdt/20261118/517109.html",
+        "https://jcgov.gov.cn/dtxx/sxyw/202611/t20261117_2412783.shtml"
+      ],
+      "result": "上海第二工业大学确认市运会高校组11月22日比赛，和报名平台同一时段的大学生锦标赛线索合并处理。补录跨四地的长三角总决赛11月21日开赛节点。全国残疾人跳绳赛有残联及地方政府资料交叉确认。花都教育局确认12月，报名平台暂列12月18—22日，招标为赛事运营采购。广西第一届中小学生跳绳比赛暂以赛事平台列入，赛会时间与城市待主办方通知。搜索未取得江西、安徽的新增参赛规程。"
+    }
+  ],
+  "publicChanges": [
+    "东营段位赛总决赛补齐场馆、报到与比赛日、报名平台截止时间及新增项目，链接到专项规程。",
+    "全国跳绳锦标赛暂定12月，附上虞承办公示原文。",
+    "广州花都全国跳绳联赛总决赛暂列12月18—22日。",
+    "2027年全港精英赛更新各比赛场馆和报名截止，新增两份官方PDF。",
+    "收录广西自治区学生赛、上海市运会高校组、长三角联赛总决赛和全国残疾人跳绳比赛。",
+    "更新池州报名截止与江西锦标赛来源。"
+  ],
+  "pending": [
+    "东营专项规程原始可下载附件尚未完成网络验证；11月19日补充通知可从协会公众号查阅。",
+    "江苏站改期、全国锦标赛正式规程与完整赛会安排、花都联赛总决赛专项规程。",
+    "广西学生赛场馆、正式赛期、竞赛规程；江西青年赛和宿州站规程；香港表演杯及DDCHK专项章程。",
+    "上虞承办公示另列肃北承办全国段位挑战赛，公告未注明分站安排或完整赛期，待确认届次与赛程。"
+  ],
+  "limitations": "省级体育和教育来源按本周重点地区与官方报名平台增量检索，未完成全省份公众号逐个复查。未查见公告不等于没有赛事。"
+}
