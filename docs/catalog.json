@@ -893,16 +893,16 @@
         "startDate": null,
         "endDate": null,
         "dateStatus": "planned",
-        "dateLabel": "2026年 · 赛期待公布",
+        "dateLabel": "2026年12月（暂定）",
         "registrationDeadline": null,
         "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
-        "summary": "协会第四批承办单位公示列绍兴市上虞区教育体育局、绍兴上虞文旅集团有限公司；具体赛期与规程待公布。",
+        "summary": "拟于12月在浙江绍兴上虞举办，确切赛期和场馆待公布。",
         "eligibility": "正式规程及参赛要求待公布。",
-        "sourceName": "中国毽球跳绳协会（11月16日微信公众号承办公示）",
-        "sourceUrl": "https://www.crsa.cc/",
+        "sourceName": "中国毽球跳绳协会 · 第四批承办单位公示",
+        "sourceUrl": "https://mp.weixin.qq.com/s?__biz=MjM5MDQwMTgxNQ%3D%3D&mid=2649262553&idx=1&sn=1359001f197a0f4efd61a2caf178600c",
         "documents": [],
         "year": 2026,
-        "scheduleNote": "第四批承办公示列上虞；具体赛期和场馆待正式通知。"
+        "scheduleNote": "承办单位为绍兴市上虞区教育体育局、绍兴上虞文旅集团有限公司。"
       },
       {
         "id": "national-league-luocheng-2026",
@@ -944,19 +944,19 @@
         "province": "广东",
         "city": "广州市花都区",
         "venue": "待公布",
-        "startDate": null,
-        "endDate": null,
+        "startDate": "2026-12-18",
+        "endDate": "2026-12-22",
         "dateStatus": "planned",
-        "dateLabel": "2026年 · 赛期待公布",
+        "dateLabel": "2026年12月18—22日（暂定）",
         "registrationDeadline": null,
         "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
-        "summary": "协会首批承办名录列广州市花都区文化广电旅游体育局承办总决赛；年度推介计划在12月举行。正式赛期待公布。",
+        "summary": "赛事平台列出12月18—22日，设于广州花都。",
         "eligibility": "正式规程及参赛要求待公布。",
-        "sourceName": "中国毽球跳绳协会",
-        "sourceUrl": "http://www.chinajiansheng.com.cn/xhjs/2026/0312/691490.html",
+        "sourceName": "中国毽球跳绳协会赛事平台",
+        "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30399",
         "documents": [],
         "year": 2026,
-        "scheduleNote": "仅录入已公布的承办计划，不据往届日程推算本届比赛日期。"
+        "scheduleNote": "报名平台暂列12月18—22日，报到、比赛日、场馆及报名要求以正式竞赛通知为准。"
       },
       {
         "id": "national-duanwei-ningxia-2026",
@@ -2087,18 +2087,18 @@
         "system": "体育",
         "province": "山东",
         "city": "东营",
-        "venue": "具体场馆待公布",
+        "venue": "东营奥体中心（东营区胜利大街609号）",
         "startDate": "2026-11-27",
         "endDate": "2026-11-30",
         "dateStatus": "confirmed",
         "dateLabel": "2026年11月27—30日（赛会时间）",
         "scheduleType": "event-period",
-        "registrationDeadline": null,
+        "registrationDeadline": "2026-11-24",
         "organizer": "国家体育总局社会体育指导中心、中国毽球跳绳协会",
-        "summary": "全国段位挑战赛年度总决赛。",
-        "eligibility": "按总规程，满足任一条件可晋级：分区赛各项目各组别前10名；年度总积分达200分及以上。最终报名要求以总决赛补充通知为准。",
-        "sourceName": "绳队友官方赛事平台",
-        "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30386",
+        "summary": "11月19日补充通知增设国内个人花样、2×30秒双摇接力、4×30秒单摇接力。",
+        "eligibility": "分区赛各项目各组别前10名或年度总积分达200分及以上者可晋级。按11月19日补充通知，已取得跳绳段位证书的运动员也可报名参加总决赛。",
+        "sourceName": "中国毽球跳绳协会 · 总决赛专项规程",
+        "sourceUrl": "https://mp.weixin.qq.com/s?__biz=Mzg5NDc2NjU5OA%3D%3D&mid=2247486632&idx=3&sn=9f75dd9cb13d10913162fb741fe72ce8",
         "documents": [
           {
             "title": "2026年全国跳绳段位挑战赛总规程（官方网页存档）",
@@ -2119,7 +2119,7 @@
         ],
         "year": 2026,
         "status": "normal",
-        "scheduleNote": "绳队友赛事平台公布11月27—30日赛会时间，地点为山东东营；具体比赛日、场馆及报名安排以总决赛后续通知为准。"
+        "scheduleNote": "11月27日报到，28—29日比赛，30日离会。赛事报名系统显示11月25日00:00截止（即24日24:00），请以报名系统为准。"
       },
       {
         "id": "norway-open-2027",
@@ -2346,7 +2346,7 @@
         "endDate": "2026-11-30",
         "dateStatus": "planned",
         "dateLabel": "2026年11月27—30日（暂定）",
-        "registrationDeadline": "2026-11-20",
+        "registrationDeadline": "2026-11-24",
         "organizer": "待主办方公布",
         "summary": "华东区跳绳邀请赛；具体赛会安排与竞赛规程待正式通知。",
         "eligibility": "按后续竞赛规程参赛。",
@@ -2354,7 +2354,7 @@
         "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30392",
         "documents": [],
         "year": 2026,
-        "scheduleNote": "报名平台暂列11月27—30日，实际赛会时间与场馆以主办方通知为准。"
+        "scheduleNote": "报名平台暂列11月27—30日，报名截止为11月24日12:00。具体赛会时间与场馆待正式通知。"
       },
       {
         "id": "sichuan-gonggabei-student-2026",
@@ -2427,7 +2427,7 @@
         "summary": "设学校公开组与俱乐部组；具体赛期和规程待正式通知。",
         "eligibility": "按后续竞赛规程参赛。",
         "sourceName": "中国毽球跳绳协会赛事平台",
-        "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30395",
+        "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30398",
         "documents": [],
         "year": 2026,
         "scheduleNote": "报名平台暂列11月27—29日，实际赛日与场馆以主办方通知为准。"
@@ -2439,7 +2439,7 @@
         "system": "体育",
         "province": "香港",
         "city": "香港",
-        "venue": "待公布",
+        "venue": "保荣路体育馆、土瓜湾体育馆、深水埗体育馆（按赛日）",
         "startDate": "2027-01-10",
         "endDate": "2027-02-20",
         "dateStatus": "confirmed",
@@ -2452,19 +2452,121 @@
           "2027-01-31",
           "2027-02-20"
         ],
-        "registrationDeadline": null,
+        "registrationDeadline": "2026-12-10",
         "organizer": "中国香港跳绳总会",
         "summary": "按女子、男子、公开组、个人赛及表演杯与交互绳项目分日举行。",
-        "eligibility": "代表队选拔资格及报名安排以总会后续章程为准。",
+        "eligibility": "个人及团体赛面向具有效会籍的香港特别行政区居民，最低参赛年龄为9岁；具体资格见章程。",
         "sourceName": "中国香港跳绳总会",
-        "sourceUrl": "https://www.hkropeskipping.org/%E8%B3%BD%E4%BA%8B%E6%99%82%E9%96%93%E8%A1%A8",
-        "documents": [],
+        "sourceUrl": "https://www.hkropeskipping.org/elite-championships",
+        "documents": [
+          {
+            "title": "全港精英跳绳比赛2027个人及团体赛章程",
+            "url": "https://www.hkropeskipping.org/_files/ugd/d025ad_3559cc5d8b444983a3044659712f7a7a.pdf",
+            "localPath": "/regulations/hkrsa-elite-2027-competition-rules.pdf",
+            "format": "PDF",
+            "kind": "regulation"
+          },
+          {
+            "title": "全港精英跳绳比赛2027规则附录",
+            "url": "https://www.hkropeskipping.org/_files/ugd/d025ad_01db526f87e44594b6736e8baa4384ab.pdf",
+            "localPath": "/regulations/hkrsa-elite-2027-rules-appendix.pdf",
+            "format": "PDF",
+            "kind": "rules"
+          }
+        ],
         "year": 2027,
-        "scheduleNote": "非连续赛日：1月10日女子组，17日男子组，24日公开组，31日个人赛；2月20日表演杯及DDCHK。场馆与规程待总会公布。"
+        "scheduleNote": "个人及团体赛12月10日上午11:00截止报名。1月10日女子组在保荣路体育馆，1月17、24、31日分别为男子组、公开组及个人赛，均在土瓜湾体育馆；2月20日表演杯及DDCHK在深水埗体育馆，详见该组别后续章程。"
+      },
+      {
+        "id": "guangxi-interschool-rope-2026",
+        "title": "2026年广西第一届中小学生跳绳比赛",
+        "level": "省级",
+        "system": "教育",
+        "province": "广西",
+        "city": "南宁（待确认）",
+        "venue": "待公布",
+        "startDate": "2026-11-28",
+        "endDate": "2026-11-29",
+        "dateStatus": "planned",
+        "dateLabel": "2026年11月28—29日（暂定）",
+        "registrationDeadline": "2026-11-20",
+        "organizer": "广西壮族自治区教育厅",
+        "summary": "面向广西全区中小学生，各市教育局统一组队。",
+        "eligibility": "由各市教育局组织报名参赛。",
+        "sourceName": "中国毽球跳绳协会赛事平台",
+        "sourceUrl": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30400",
+        "documents": [],
+        "year": 2026,
+        "scheduleNote": "赛事平台暂列11月28—29日、南宁，具体赛期和场馆待正式通知。"
+      },
+      {
+        "id": "shanghai-games-university-rope-2026",
+        "title": "上海市第十八届运动会跳绳比赛（高校组）",
+        "level": "省级",
+        "system": "教育",
+        "province": "上海",
+        "city": "上海",
+        "venue": "上海财经大学",
+        "startDate": "2026-11-22",
+        "endDate": "2026-11-22",
+        "dateStatus": "confirmed",
+        "registrationDeadline": null,
+        "organizer": "上海市体育局、上海市教育委员会",
+        "summary": "设置个人速度、接力、交互绳和长绳等项目。",
+        "eligibility": "上海市高校组队参赛。",
+        "sourceName": "上海第二工业大学体育部",
+        "sourceUrl": "https://sspu.edu.cn/2026/1123/c3089a173919/page.psp",
+        "documents": [],
+        "year": 2026
+      },
+      {
+        "id": "national-para-rope-2026",
+        "title": "2026年全国残疾人跳绳比赛",
+        "level": "全国",
+        "system": "体育",
+        "province": "北京",
+        "city": "北京",
+        "venue": "中国残疾人体育运动管理中心",
+        "startDate": "2026-11-12",
+        "endDate": "2026-11-16",
+        "dateStatus": "confirmed",
+        "dateLabel": "2026年11月12—16日（赛会时间）",
+        "scheduleType": "event-period",
+        "registrationDeadline": null,
+        "organizer": "中国残疾人联合会、中国残奥委员会、中国特奥委员会、中国聋人体育协会",
+        "summary": "设视力、智力和听力残疾组别，分计数赛和花样赛。",
+        "eligibility": "由各省级单位组队参赛。",
+        "sourceName": "中国残疾人联合会",
+        "sourceUrl": "https://www.cdpf.org.cn/xwzx/ywdt1/2fb79bb122cc46afb9c6ed7c7f0bce7d.htm",
+        "documents": [],
+        "year": 2026,
+        "scheduleNote": "11月12日在北京开赛。"
+      },
+      {
+        "id": "yangtze-delta-league-final-2026",
+        "title": "“回力杯”2026年长三角跳绳联赛总决赛",
+        "level": "省级",
+        "system": "体育",
+        "province": "上海",
+        "city": "上海·杨浦",
+        "venue": "复兴岛船台公园复兴云厅",
+        "startDate": "2026-11-21",
+        "endDate": "2026-11-21",
+        "dateStatus": "confirmed",
+        "dateLabel": "2026年11月21日（开赛）",
+        "scheduleType": "event-period",
+        "registrationDeadline": null,
+        "organizer": "上海市体育局、江苏省体育局、浙江省体育局、安徽省体育局",
+        "summary": "沪苏浙皖四地联赛总决赛。",
+        "eligibility": "沪苏浙皖各赛区组队参赛。",
+        "sourceName": "潮新闻 · 博览视界",
+        "sourceUrl": "https://tidenews.com.cn/tmh_news.html?id=6b0272304f4bff00010972cc",
+        "documents": [],
+        "year": 2026
       }
     ],
-    "reviewedAt": "2026-11-16T14:51:56Z",
-    "updateNote": "江苏段位挑战赛延期，新赛期待公布；全国跳绳锦标赛承办公示更新为浙江上虞。新增湖南“湘绳超”总决赛与2027年全港精英赛，另补充四场待核赛事。",
+    "reviewedAt": "2026-11-23T16:28:26Z",
+    "updateNote": "补齐东营段位赛总决赛场馆和报到安排，更新全国锦标赛及联赛总决赛暂定赛期，增补全港精英赛章程及广西、上海等赛事。",
     "coverageNote": "本次补核河北、宁夏段位赛最新通知。既往逐省核查中部分官方来源访问受限、部分规程未公开，京津冀邀请赛等线索仍待补核；检索未发现不等于没有赛事。",
     "sources": [
       {
@@ -2836,6 +2938,26 @@
         "name": "中国毽球跳绳协会赛事平台",
         "url": "https://www.crsa.cc/#/pages/event/eventDetail/index?id=30394",
         "category": "赛事规程"
+      },
+      {
+        "name": "中国毽球跳绳协会 · 东营总决赛规程",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg5NDc2NjU5OA%3D%3D&mid=2247486632&idx=3&sn=9f75dd9cb13d10913162fb741fe72ce8",
+        "category": "赛事规程"
+      },
+      {
+        "name": "CJRU绳队友 · 东营总决赛11月19日补充通知",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5MDQwMTgxNQ%3D%3D&mid=2649262581&idx=1&sn=6307dc3b8b69f87198d32d1a2abe2250",
+        "category": "赛事通知"
+      },
+      {
+        "name": "中国毽球跳绳协会 · 第四批承办公示",
+        "url": "https://mp.weixin.qq.com/s?__biz=MjM5MDQwMTgxNQ%3D%3D&mid=2649262553&idx=1&sn=1359001f197a0f4efd61a2caf178600c",
+        "category": "赛事通知"
+      },
+      {
+        "name": "山西省跳绳运动协会 · 全国锦标赛组队通知",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MDIxMTU5Mw%3D%3D&mid=2247490846&idx=1&sn=25471a231ee40c925dc0687f9b4b1659",
+        "category": "赛事通知"
       }
     ],
     "schedule": {
